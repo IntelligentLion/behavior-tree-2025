@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8d1088038943068f31ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_tutorial_video",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-79e88506e0e37dc8230e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_video::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_video-Release-2a12f10f457bc43def5a.json",
+					"name" : "zed_tutorial_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_video_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_video_files-Release-27b97de1dcc48c2f6813.json",
+					"name" : "zed_tutorial_video_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_video_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_video_uninstall-Release-9df3800b5d7c9d988396.json",
+					"name" : "zed_tutorial_video_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yirehban/ros2_ws/build/zed_tutorial_video",
+		"source" : "/home/yirehban/ros2_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

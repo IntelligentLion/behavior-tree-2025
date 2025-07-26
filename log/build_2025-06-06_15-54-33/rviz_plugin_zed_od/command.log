@@ -1,0 +1,6 @@
+Invoking command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/rviz_plugin_zed_od
+Invoked command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/rviz_plugin_zed_od
+Invoking command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/rviz_plugin_zed_od -- -j6 -l6
+Invoked command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/rviz_plugin_zed_od -- -j6 -l6
+Invoking command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/rviz_plugin_zed_od
+Invoked command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/rviz_plugin_zed_od

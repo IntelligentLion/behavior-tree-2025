@@ -1,0 +1,42 @@
+[1.511s] Invoking command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/rviz_plugin_zed_od -- -j6 -l6
+[1.882s] [ 20%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_zed_od[0m
+[2.069s] [ 20%] Built target rviz_plugin_zed_od_autogen
+[2.179s] [35m[1mConsolidate compiler generated dependencies of target rviz_plugin_zed_od[0m
+[2.244s] [100%] Built target rviz_plugin_zed_od
+[2.303s] Invoked command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/rviz_plugin_zed_od -- -j6 -l6
+[2.330s] Invoking command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/rviz_plugin_zed_od
+[2.362s] -- Install configuration: ""
+[2.362s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/plugins_description.xml
+[2.363s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.sh
+[2.363s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.dsv
+[2.372s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so
+[2.372s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od/
+[2.373s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//visibility_control.hpp
+[2.373s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od/
+[2.373s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_info.hpp
+[2.373s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_body_parts.hpp
+[2.373s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_display.hpp
+[2.373s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/icons
+[2.373s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/icons/ZedObjDet.png
+[2.374s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_zed_od
+[2.374s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_zed_od
+[2.375s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.sh
+[2.375s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.dsv
+[2.375s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.sh
+[2.375s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.dsv
+[2.376s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.bash
+[2.377s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.sh
+[2.378s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.zsh
+[2.378s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.dsv
+[2.378s] -- Installing: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.dsv
+[2.378s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/ament_index/resource_index/packages/rviz_plugin_zed_od
+[2.378s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_zed_od
+[2.381s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport.cmake
+[2.382s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-noconfig.cmake
+[2.382s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.382s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_targets-extras.cmake
+[2.382s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.382s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig.cmake
+[2.382s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig-version.cmake
+[2.383s] -- Up-to-date: /home/yirehban/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.xml
+[2.387s] Invoked command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/rviz_plugin_zed_od

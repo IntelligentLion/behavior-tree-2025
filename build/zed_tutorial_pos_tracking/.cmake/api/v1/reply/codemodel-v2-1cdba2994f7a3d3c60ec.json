@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ab418dbe366fabbadf01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_tutorial_pos_tracking",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c1b33fb63548aa12029b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_pos_tracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_pos_tracking-Release-43423af9c7db9f955288.json",
+					"name" : "zed_tutorial_pos_tracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_pos_tracking_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_pos_tracking_files-Release-77ceaa63635afb3b1a20.json",
+					"name" : "zed_tutorial_pos_tracking_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_pos_tracking_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_pos_tracking_uninstall-Release-d9d1f5e233f629d990b1.json",
+					"name" : "zed_tutorial_pos_tracking_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yirehban/ros2_ws/build/zed_tutorial_pos_tracking",
+		"source" : "/home/yirehban/ros2_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

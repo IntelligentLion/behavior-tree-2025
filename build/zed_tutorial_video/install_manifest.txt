@@ -1,0 +1,16 @@
+/home/yirehban/ros2_ws/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+/home/yirehban/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.xml

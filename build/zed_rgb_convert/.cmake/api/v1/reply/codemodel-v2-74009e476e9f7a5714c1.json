@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-02add09a1299e0b9fb7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_rgb_convert",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_rgb_convert_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_rgb_convert_files-Release-1ee29f960563135b6b06.json",
+					"name" : "all_zed_rgb_convert_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2a363b85de5241b2766f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert-Release-db88db4aa2e0ec383286.json",
+					"name" : "zed_rgb_convert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert_component-Release-66adfb8ef35be883ea65.json",
+					"name" : "zed_rgb_convert_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert_uninstall-Release-a30f0d1968a00f7c976a.json",
+					"name" : "zed_rgb_convert_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yirehban/ros2_ws/build/zed_rgb_convert",
+		"source" : "/home/yirehban/ros2_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,42 @@
+[0.024s] Invoking command in '/home/yirehban/ros2_ws/build/mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/mission -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/mission
+[0.052s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.364s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.433s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.437s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.447s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.548s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.018s] -- Configuring done
+[1.037s] -- Generating done
+[1.045s] -- Build files have been written to: /home/yirehban/ros2_ws/build/mission
+[1.065s] Invoked command in '/home/yirehban/ros2_ws/build/mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/mission -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/mission
+[1.068s] Invoking command in '/home/yirehban/ros2_ws/build/mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/mission -- -j6 -l6
+[1.184s] [ 14%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o[0m
+[1.184s] [ 28%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o[0m
+[1.185s] [ 57%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/turn_180.cpp.o[0m
+[1.185s] [ 57%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/main.cpp.o[0m
+[1.188s] [ 71%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o[0m
+[1.191s] [ 85%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o[0m
+[2.454s] [01m[K/home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp:3:16:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KBT::NodeStatus GateDetected::tick()[m[K’
+[2.454s]     3 | BT::NodeStatus [01;31m[KGateDetected[m[K::tick()
+[2.454s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[2.454s] In file included from [01m[K/home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp:1[m[K:
+[2.455s] [01m[K/home/yirehban/ros2_ws/src/mission/include/mission/gate_detected.hpp:13:18:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual BT::NodeStatus GateDetected::tick()[m[K’ previously defined here
+[2.455s]    13 |   BT::NodeStatus [01;36m[Ktick[m[K() override
+[2.455s]       |                  [01;36m[K^~~~[m[K
+[2.636s] gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:90: CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o] Error 1
+[2.636s] gmake[2]: *** Waiting for unfinished jobs....
+[2.703s] [01m[K/home/yirehban/ros2_ws/src/mission/src/main.cpp:44:16:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KBT::NodeStatus GateDetected::tick()[m[K’
+[2.703s]    44 | BT::NodeStatus [01;31m[KGateDetected[m[K::tick()
+[2.703s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[2.703s] In file included from [01m[K/home/yirehban/ros2_ws/src/mission/src/main.cpp:2[m[K:
+[2.703s] [01m[K/home/yirehban/ros2_ws/src/mission/include/mission/gate_detected.hpp:13:18:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual BT::NodeStatus GateDetected::tick()[m[K’ previously defined here
+[2.703s]    13 |   BT::NodeStatus [01;36m[Ktick[m[K() override
+[2.704s]       |                  [01;36m[K^~~~[m[K
+[3.280s] gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:76: CMakeFiles/bt_runner.dir/src/main.cpp.o] Error 1
+[3.280s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2
+[3.281s] gmake: *** [Makefile:146: all] Error 2
+[3.288s] Invoked command in '/home/yirehban/ros2_ws/build/mission' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/mission -- -j6 -l6

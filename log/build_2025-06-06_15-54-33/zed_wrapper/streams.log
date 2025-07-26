@@ -1,0 +1,79 @@
+[0.294s] Invoking command in '/home/yirehban/ros2_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/yirehban/ros2_ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/zed_wrapper
+[0.458s] -- The C compiler identification is GNU 11.4.0
+[0.609s] -- The CXX compiler identification is GNU 11.4.0
+[0.625s] -- Detecting C compiler ABI info
+[0.761s] -- Detecting C compiler ABI info - done
+[0.784s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.785s] -- Detecting C compile features
+[0.786s] -- Detecting C compile features - done
+[0.792s] -- Detecting CXX compiler ABI info
+[0.936s] -- Detecting CXX compiler ABI info - done
+[0.962s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.963s] -- Detecting CXX compile features
+[0.965s] -- Detecting CXX compile features - done
+[0.972s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.322s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.781s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.788s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.826s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.938s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.942s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.114s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.172s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.261s] -- Looking for pthread.h
+[2.408s] -- Looking for pthread.h - found
+[2.409s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.563s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.565s] -- Found Threads: TRUE  
+[2.940s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.942s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.942s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.341s] -- Configuring done
+[3.353s] -- Generating done
+[3.358s] -- Build files have been written to: /home/yirehban/ros2_ws/build/zed_wrapper
+[3.388s] Invoked command in '/home/yirehban/ros2_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/yirehban/ros2_ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/zed_wrapper
+[3.389s] Invoking command in '/home/yirehban/ros2_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/yirehban/ros2_ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_wrapper -- -j6 -l6
+[3.471s] Invoked command in '/home/yirehban/ros2_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/yirehban/ros2_ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_wrapper -- -j6 -l6
+[3.472s] Invoking command in '/home/yirehban/ros2_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/yirehban/ros2_ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/yirehban/ros2_ws/build/zed_wrapper
+[3.489s] -- Install configuration: ""
+[3.489s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config
+[3.491s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/virtual.yaml
+[3.493s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/ffmpeg.yaml
+[3.494s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common_stereo.yaml
+[3.495s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[3.495s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[3.496s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[3.497s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxone4k.yaml
+[3.497s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[3.497s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common_mono.yaml
+[3.498s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/custom_object_detection.yaml
+[3.501s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/object_detection.yaml
+[3.502s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[3.503s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[3.503s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxonegs.yaml
+[3.504s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf
+[3.504s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[3.505s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[3.506s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include
+[3.506s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[3.507s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch
+[3.508s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py
+[3.509s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[3.509s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[3.510s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[3.510s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[3.510s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[3.510s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[3.511s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[3.511s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[3.511s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[3.511s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[3.512s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[3.512s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[3.513s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[3.513s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[3.513s] -- Installing: /home/yirehban/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[3.519s] Invoked command in '/home/yirehban/ros2_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/yirehban/ros2_ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/yirehban/ros2_ws/build/zed_wrapper

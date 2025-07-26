@@ -1,0 +1,24 @@
+/home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/dependency_links.txt
+writing entry points to ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/entry_points.txt
+writing requirements to ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/requires.txt
+writing top-level names to ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/top_level.txt
+reading manifest file '../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mavlink_thruster_control/thruster_node.py -> /home/yirehban/ros2_ws/build/mavlink_thruster_control/build/lib/mavlink_thruster_control
+running install
+running install_lib
+copying /home/yirehban/ros2_ws/build/mavlink_thruster_control/build/lib/mavlink_thruster_control/thruster_node.py -> /home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages/mavlink_thruster_control
+byte-compiling /home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages/mavlink_thruster_control/thruster_node.py to thruster_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages/mavlink_thruster_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info to /home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages/mavlink_thruster_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing thruster_node script to /home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/mavlink_thruster_node
+writing list of installed files to '/home/yirehban/ros2_ws/build/mavlink_thruster_control/install.log'

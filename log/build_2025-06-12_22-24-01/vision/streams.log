@@ -1,0 +1,45 @@
+[1.728s] Invoking command in '/home/yirehban/ros2_ws/src/vision': CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/auv_msgs:/home/yirehban/ros2_ws/install/zed_ros2:/home/yirehban/ros2_ws/install/zed_robot_integration:/home/yirehban/ros2_ws/install/zed_ipc:/home/yirehban/ros2_ws/install/zed_multi_camera:/home/yirehban/ros2_ws/install/zed_display_rviz2:/home/yirehban/ros2_ws/install/zed_depth_to_laserscan:/home/yirehban/ros2_ws/install/zed_wrapper:/home/yirehban/ros2_ws/install/zed_tutorial_video:/home/yirehban/ros2_ws/install/zed_tutorial_pos_tracking:/home/yirehban/ros2_ws/install/zed_tutorial_depth:/home/yirehban/ros2_ws/install/zed_topic_benchmark:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces:/home/yirehban/ros2_ws/install/zed_rgb_convert:/home/yirehban/ros2_ws/install/zed_aruco_localization:/home/yirehban/ros2_ws/install/zed_components:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set:/home/yirehban/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_service:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_client:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_async_client PYTHONPATH=/home/yirehban/ros2_ws/build/vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision build --build-base /home/yirehban/ros2_ws/build/vision/build install --record /home/yirehban/ros2_ws/build/vision/install.log --single-version-externally-managed install_data
+[2.285s] running egg_info
+[2.286s] creating ../../build/vision/vision.egg-info
+[2.286s] writing ../../build/vision/vision.egg-info/PKG-INFO
+[2.286s] writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt
+[2.287s] writing entry points to ../../build/vision/vision.egg-info/entry_points.txt
+[2.287s] writing requirements to ../../build/vision/vision.egg-info/requires.txt
+[2.287s] writing top-level names to ../../build/vision/vision.egg-info/top_level.txt
+[2.288s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[2.291s] reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[2.292s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[2.293s] running build
+[2.293s] running build_py
+[2.293s] creating /home/yirehban/ros2_ws/build/vision/build
+[2.294s] creating /home/yirehban/ros2_ws/build/vision/build/lib
+[2.294s] creating /home/yirehban/ros2_ws/build/vision/build/lib/vision
+[2.295s] copying vision/obj_det.py -> /home/yirehban/ros2_ws/build/vision/build/lib/vision
+[2.295s] copying vision/detector.py -> /home/yirehban/ros2_ws/build/vision/build/lib/vision
+[2.295s] copying vision/__init__.py -> /home/yirehban/ros2_ws/build/vision/build/lib/vision
+[2.295s] copying vision/custom_internal_detector.py -> /home/yirehban/ros2_ws/build/vision/build/lib/vision
+[2.296s] copying vision/object_detection_image_viewer.py -> /home/yirehban/ros2_ws/build/vision/build/lib/vision
+[2.296s] running install
+[2.296s] running install_lib
+[2.296s] creating /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[2.297s] copying /home/yirehban/ros2_ws/build/vision/build/lib/vision/obj_det.py -> /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[2.297s] copying /home/yirehban/ros2_ws/build/vision/build/lib/vision/detector.py -> /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[2.297s] copying /home/yirehban/ros2_ws/build/vision/build/lib/vision/__init__.py -> /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[2.298s] copying /home/yirehban/ros2_ws/build/vision/build/lib/vision/custom_internal_detector.py -> /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[2.298s] copying /home/yirehban/ros2_ws/build/vision/build/lib/vision/object_detection_image_viewer.py -> /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[2.298s] byte-compiling /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision/obj_det.py to obj_det.cpython-310.pyc
+[2.299s] byte-compiling /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision/detector.py to detector.cpython-310.pyc
+[2.302s] byte-compiling /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision/__init__.py to __init__.cpython-310.pyc
+[2.302s] byte-compiling /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision/custom_internal_detector.py to custom_internal_detector.cpython-310.pyc
+[2.304s] byte-compiling /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision/object_detection_image_viewer.py to object_detection_image_viewer.cpython-310.pyc
+[2.305s] running install_data
+[2.305s] creating /home/yirehban/ros2_ws/install/vision/share/ament_index
+[2.306s] creating /home/yirehban/ros2_ws/install/vision/share/ament_index/resource_index
+[2.306s] creating /home/yirehban/ros2_ws/install/vision/share/ament_index/resource_index/packages
+[2.306s] copying resource/vision -> /home/yirehban/ros2_ws/install/vision/share/ament_index/resource_index/packages
+[2.306s] copying package.xml -> /home/yirehban/ros2_ws/install/vision/share/vision
+[2.307s] running install_egg_info
+[2.310s] Copying ../../build/vision/vision.egg-info to /home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info
+[2.311s] running install_scripts
+[2.349s] writing list of installed files to '/home/yirehban/ros2_ws/build/vision/install.log'
+[2.419s] Invoked command in '/home/yirehban/ros2_ws/src/vision' returned '0': CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/auv_msgs:/home/yirehban/ros2_ws/install/zed_ros2:/home/yirehban/ros2_ws/install/zed_robot_integration:/home/yirehban/ros2_ws/install/zed_ipc:/home/yirehban/ros2_ws/install/zed_multi_camera:/home/yirehban/ros2_ws/install/zed_display_rviz2:/home/yirehban/ros2_ws/install/zed_depth_to_laserscan:/home/yirehban/ros2_ws/install/zed_wrapper:/home/yirehban/ros2_ws/install/zed_tutorial_video:/home/yirehban/ros2_ws/install/zed_tutorial_pos_tracking:/home/yirehban/ros2_ws/install/zed_tutorial_depth:/home/yirehban/ros2_ws/install/zed_topic_benchmark:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces:/home/yirehban/ros2_ws/install/zed_rgb_convert:/home/yirehban/ros2_ws/install/zed_aruco_localization:/home/yirehban/ros2_ws/install/zed_components:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set:/home/yirehban/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_service:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_client:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_async_client PYTHONPATH=/home/yirehban/ros2_ws/build/vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision build --build-base /home/yirehban/ros2_ws/build/vision/build install --record /home/yirehban/ros2_ws/build/vision/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[1.747s] Invoking command in '/home/yirehban/ros2_ws/src/mavlink_thruster_control': PYTHONPATH=/home/yirehban/ros2_ws/build/mavlink_thruster_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavlink_thruster_control build --build-base /home/yirehban/ros2_ws/build/mavlink_thruster_control/build install --record /home/yirehban/ros2_ws/build/mavlink_thruster_control/install.log --install-scripts $base/lib/mavlink_thruster_node --single-version-externally-managed install_data
+[2.256s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.257s]   warnings.warn(
+[2.309s] running egg_info
+[2.310s] writing ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/PKG-INFO
+[2.312s] writing dependency_links to ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/dependency_links.txt
+[2.313s] writing entry points to ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/entry_points.txt
+[2.313s] writing requirements to ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/requires.txt
+[2.313s] writing top-level names to ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/top_level.txt
+[2.317s] reading manifest file '../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/SOURCES.txt'
+[2.319s] writing manifest file '../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info/SOURCES.txt'
+[2.319s] running build
+[2.319s] running build_py
+[2.321s] copying mavlink_thruster_control/thruster_node.py -> /home/yirehban/ros2_ws/build/mavlink_thruster_control/build/lib/mavlink_thruster_control
+[2.322s] running install
+[2.322s] running install_lib
+[2.324s] copying /home/yirehban/ros2_ws/build/mavlink_thruster_control/build/lib/mavlink_thruster_control/thruster_node.py -> /home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages/mavlink_thruster_control
+[2.325s] byte-compiling /home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages/mavlink_thruster_control/thruster_node.py to thruster_node.cpython-310.pyc
+[2.326s] running install_data
+[2.327s] running install_egg_info
+[2.330s] removing '/home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages/mavlink_thruster_control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.331s] Copying ../../build/mavlink_thruster_control/mavlink_thruster_control.egg-info to /home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages/mavlink_thruster_control-0.0.0-py3.10.egg-info
+[2.333s] running install_scripts
+[2.373s] Installing thruster_node script to /home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/mavlink_thruster_node
+[2.374s] writing list of installed files to '/home/yirehban/ros2_ws/build/mavlink_thruster_control/install.log'
+[2.449s] Invoked command in '/home/yirehban/ros2_ws/src/mavlink_thruster_control' returned '0': PYTHONPATH=/home/yirehban/ros2_ws/build/mavlink_thruster_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavlink_thruster_control build --build-base /home/yirehban/ros2_ws/build/mavlink_thruster_control/build install --record /home/yirehban/ros2_ws/build/mavlink_thruster_control/install.log --install-scripts $base/lib/mavlink_thruster_node --single-version-externally-managed install_data

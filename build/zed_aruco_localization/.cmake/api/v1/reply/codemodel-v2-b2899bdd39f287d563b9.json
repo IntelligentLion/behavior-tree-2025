@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-80b1ca59bbf7f17a2d21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_aruco_localization",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_aruco_localization_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_aruco_localization_files-Release-6d416c5a3908b9486be8.json",
+					"name" : "all_zed_aruco_localization_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-6191ae2bc60dabd38dd5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_aruco_localization_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_aruco_localization_component-Release-f0c4f7faf375bb2b0f8a.json",
+					"name" : "zed_aruco_localization_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_aruco_localization_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_aruco_localization_uninstall-Release-dffb5b39238010f9b6ef.json",
+					"name" : "zed_aruco_localization_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yirehban/ros2_ws/build/zed_aruco_localization",
+		"source" : "/home/yirehban/ros2_ws/src/zed-ros2-examples/examples/zed_aruco_localization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

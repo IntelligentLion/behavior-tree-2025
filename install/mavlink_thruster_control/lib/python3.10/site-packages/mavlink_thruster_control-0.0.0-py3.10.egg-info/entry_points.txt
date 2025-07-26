@@ -1,0 +1,3 @@
+[console_scripts]
+thruster_node = mavlink_thruster_control.thruster_node:main
+

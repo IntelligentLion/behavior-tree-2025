@@ -1,0 +1,112 @@
+[0.047s] Invoking command in '/home/yirehban/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/zed_components
+[0.697s] -- The C compiler identification is GNU 11.4.0
+[1.196s] -- The CXX compiler identification is GNU 11.4.0
+[1.222s] -- Detecting C compiler ABI info
+[1.377s] -- Detecting C compiler ABI info - done
+[1.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.393s] -- Detecting C compile features
+[1.394s] -- Detecting C compile features - done
+[1.403s] -- Detecting CXX compiler ABI info
+[1.566s] -- Detecting CXX compiler ABI info - done
+[1.585s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.585s] -- Detecting CXX compile features
+[1.587s] -- Detecting CXX compile features - done
+[1.601s] -- Looking for sgemm_
+[1.790s] -- Looking for sgemm_ - not found
+[1.799s] -- Looking for pthread.h
+[2.015s] -- Looking for pthread.h - found
+[2.016s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.215s] -- Found Threads: TRUE  
+[2.283s] -- Looking for sgemm_
+[2.713s] -- Looking for sgemm_ - found
+[2.714s] -- Found BLAS: /usr/lib/aarch64-linux-gnu/libopenblas.so  
+[2.874s] -- Found CUDA: /usr/local/cuda-12.6 (found suitable version "12.6", minimum required is "12.6") 
+[2.932s] -- Found CUDA: /usr/local/cuda-12.6 (found version "12.6") 
+[2.936s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.361s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.816s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.825s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.839s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.280s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.285s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.673s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.822s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.126s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.603s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.607s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.607s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.344s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.489s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.493s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.494s] -- Configured cppcheck include dirs: /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include
+[7.494s] -- Configured cppcheck exclude dirs and/or files: 
+[7.495s] -- Added test 'lint_cmake' to check CMake code style
+[7.499s] -- Added test 'uncrustify' to check C / C++ code style
+[7.499s] -- Configured uncrustify additional arguments: 
+[7.500s] -- Added test 'xmllint' to check XML markup files
+[7.522s] -- Configuring done
+[7.709s] -- Generating done
+[7.751s] -- Build files have been written to: /home/yirehban/ros2_ws/build/zed_components
+[7.862s] Invoked command in '/home/yirehban/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/zed_components
+[7.863s] Invoking command in '/home/yirehban/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_components -- -j6 -l6
+[36.848s] [  7%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[36.854s] [ 14%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[36.854s] [ 21%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[36.854s] [ 28%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[36.854s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[36.855s] [ 42%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[46.639s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_main.cpp.o[0m
+[47.836s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera/src/zed_camera_one_component.cpp.o[0m
+[106.188s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_types.cpp.o[0m
+[119.458s] [ 71%] [32m[1mLinking CXX shared library libzed_camera_one_component.so[0m
+[120.860s] [ 71%] Built target zed_camera_one_component
+[246.519s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_bodytrk.cpp.o[0m
+[246.531s] [ 85%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_objdet.cpp.o[0m
+[271.647s] [ 92%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_types.cpp.o[0m
+[282.670s] [100%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[284.320s] [100%] Built target zed_camera_component
+[284.366s] Invoked command in '/home/yirehban/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_components -- -j6 -l6
+[284.374s] Invoking command in '/home/yirehban/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/zed_components
+[284.401s] -- Install configuration: "Release"
+[284.401s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/lib/libzed_camera_component.so
+[284.415s] -- Set runtime path of "/home/yirehban/ros2_ws/install/zed_components/lib/libzed_camera_component.so" to ""
+[284.416s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/lib/libzed_camera_one_component.so
+[284.432s] -- Set runtime path of "/home/yirehban/ros2_ws/install/zed_components/lib/libzed_camera_one_component.so" to ""
+[284.433s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components/
+[284.433s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//zed_camera_one_component.hpp
+[284.433s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+[284.434s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//cost_traversability.hpp
+[284.434s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_components/include/zed_components/
+[284.435s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//sl_win_avg.hpp
+[284.435s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//sl_logging.hpp
+[284.435s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//sl_tools.hpp
+[284.436s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//sl_types.hpp
+[284.436s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//json.hpp
+[284.438s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//gnss_replay.hpp
+[284.438s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_components/include/zed_components/
+[284.438s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/include/zed_components//visibility_control.hpp
+[284.439s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/environment/library_path.sh
+[284.439s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/environment/library_path.dsv
+[284.441s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[284.442s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[284.443s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[284.443s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[284.444s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/environment/path.sh
+[284.444s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/environment/path.dsv
+[284.444s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/local_setup.bash
+[284.445s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/local_setup.sh
+[284.445s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/local_setup.zsh
+[284.446s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/local_setup.dsv
+[284.446s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/package.dsv
+[284.447s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[284.448s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[284.449s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[284.450s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[284.451s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[284.452s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[284.452s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[284.453s] -- Installing: /home/yirehban/ros2_ws/install/zed_components/share/zed_components/package.xml
+[284.459s] Invoked command in '/home/yirehban/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/zed_components

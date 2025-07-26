@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-6c9115e7df75b44b261e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_topic_benchmark",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-57a7a4b6a27270ce03aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark-Release-3a8eec953ab2fcb98ab9.json",
+					"name" : "zed_topic_benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_files-Release-1a979e346243d52de4bd.json",
+					"name" : "zed_topic_benchmark_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_uninstall-Release-2e95f6ab8f4d38fc0c95.json",
+					"name" : "zed_topic_benchmark_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yirehban/ros2_ws/build/zed_topic_benchmark",
+		"source" : "/home/yirehban/ros2_ws/src/zed-ros2-examples/tools/zed_benchmark"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,19 @@
+[01m[K/home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp:3:16:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KBT::NodeStatus GateDetected::tick()[m[K’
+    3 | BT::NodeStatus [01;31m[KGateDetected[m[K::tick()
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp:1[m[K:
+[01m[K/home/yirehban/ros2_ws/src/mission/include/mission/gate_detected.hpp:13:18:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual BT::NodeStatus GateDetected::tick()[m[K’ previously defined here
+   13 |   BT::NodeStatus [01;36m[Ktick[m[K() override
+      |                  [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:90: CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/yirehban/ros2_ws/src/mission/src/main.cpp:44:16:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KBT::NodeStatus GateDetected::tick()[m[K’
+   44 | BT::NodeStatus [01;31m[KGateDetected[m[K::tick()
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/yirehban/ros2_ws/src/mission/src/main.cpp:2[m[K:
+[01m[K/home/yirehban/ros2_ws/src/mission/include/mission/gate_detected.hpp:13:18:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual BT::NodeStatus GateDetected::tick()[m[K’ previously defined here
+   13 |   BT::NodeStatus [01;36m[Ktick[m[K() override
+      |                  [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:76: CMakeFiles/bt_runner.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

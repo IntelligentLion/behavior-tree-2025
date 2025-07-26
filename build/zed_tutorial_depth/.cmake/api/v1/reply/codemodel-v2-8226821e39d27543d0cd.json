@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c2506904acf3ba90d5b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_tutorial_depth",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2932f46c846ece2e571c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_depth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_depth-Release-e2e3e863011023e679b8.json",
+					"name" : "zed_tutorial_depth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_depth_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_depth_files-Release-fae35384e290f0f2a8eb.json",
+					"name" : "zed_tutorial_depth_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_depth_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_depth_uninstall-Release-c1acaa783ce46a796b1b.json",
+					"name" : "zed_tutorial_depth_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yirehban/ros2_ws/build/zed_tutorial_depth",
+		"source" : "/home/yirehban/ros2_ws/src/zed-ros2-examples/tutorials/zed_depth_tutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

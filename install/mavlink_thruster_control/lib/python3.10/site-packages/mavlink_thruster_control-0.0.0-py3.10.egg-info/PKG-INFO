@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mavlink-thruster-control
+Version: 0.0.0
+Summary: Control Pixhawk thrusters via ROS 2 and pymavlink
+Home-page: UNKNOWN
+Maintainer: yirehban
+Maintainer-email: yirehban@todo.todo
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

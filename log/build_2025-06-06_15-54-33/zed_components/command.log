@@ -1,0 +1,6 @@
+Invoking command in '/home/yirehban/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/zed_components
+Invoked command in '/home/yirehban/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/zed_components
+Invoking command in '/home/yirehban/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_components -- -j6 -l6
+Invoked command in '/home/yirehban/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_components -- -j6 -l6
+Invoking command in '/home/yirehban/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/zed_components
+Invoked command in '/home/yirehban/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/zed_components
