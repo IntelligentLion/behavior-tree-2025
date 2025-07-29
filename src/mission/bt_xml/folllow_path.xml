@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root BTCPP_format="4">
+
+  <BehaviorTree ID="Follow Path">
+    <Sequence>
+      <Turn_right_until_parallel_with_Path_and_facing_away_from_the_end/>
+      <Move_until_the_other_end_of_the_path/>
+    </Sequence>
+  </BehaviorTree>
+
+</root>
+

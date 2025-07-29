@@ -1,0 +1,40 @@
+[2.771s] Invoking command in '/home/yirehban/ros2_ws/src/examples/rclpy/guard_conditions': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data
+[3.399s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.399s]   warnings.warn(msg)
+[3.511s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[3.512s] !!
+[3.513s] 
+[3.514s]         ********************************************************************************
+[3.514s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[3.515s] 
+[3.516s]         License :: OSI Approved :: Apache Software License
+[3.517s] 
+[3.518s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[3.519s]         ********************************************************************************
+[3.523s] 
+[3.524s] !!
+[3.525s]   self._finalize_license_expression()
+[3.714s] running egg_info
+[3.846s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[3.865s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[3.870s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[3.875s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[3.877s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[4.017s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[4.019s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[4.021s] running build
+[4.022s] running build_py
+[4.022s] copying examples_rclpy_guard_conditions/__init__.py -> /home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[4.022s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[4.024s] running install
+[4.036s] running install_lib
+[4.096s] running install_data
+[4.101s] copying resource/examples_rclpy_guard_conditions -> /home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[4.101s] copying package.xml -> /home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[4.102s] running install_egg_info
+[4.143s] removing '/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.3-py3.10.egg-info' (and everything under it)
+[4.150s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.3-py3.10.egg-info
+[4.153s] running install_scripts
+[4.259s] Installing trigger_guard_condition script to /home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[4.262s] writing list of installed files to '/home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/install.log'
+[4.760s] Invoked command in '/home/yirehban/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data

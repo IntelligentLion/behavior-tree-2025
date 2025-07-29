@@ -1,12 +1,13 @@
-Metadata-Version: 2.1
-Name: examples-rclpy-pointcloud-publisher
+Metadata-Version: 2.4
+Name: examples_rclpy_pointcloud_publisher
 Version: 0.15.3
 Summary: Example on how to publish a Pointcloud2 message
-Home-page: UNKNOWN
 Maintainer: Aditya Pande, Shane Loretz
 Maintainer-email: aditya.pande@openrobotics.org, shane@openrobotics.org
 License: Apache 2.0
-Platform: UNKNOWN
-
-UNKNOWN
-
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

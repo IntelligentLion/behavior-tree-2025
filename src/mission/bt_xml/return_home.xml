@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root BTCPP_format="4">
+  <BehaviorTree ID="Return_Home">
+    <Sequence>
+      <Move_to_depth_taken_for_Navigating_the_Channel/>
+      <Turn_right_180_deg/>
+      <Make_it_back_through_gate/>
+      <Resurface/>
+    </Sequence>
+  </BehaviorTree>
+</root>

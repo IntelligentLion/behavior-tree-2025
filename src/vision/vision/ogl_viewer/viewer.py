@@ -10,7 +10,7 @@ import numpy as np
 import array
 from enum import IntEnum
 
-from ..cv_viewer.utils import *
+from cv_viewer.utils import *
 import pyzed.sl as sl
 
 VERTEX_SHADER = """

@@ -1,0 +1,56 @@
+[0.033s] Invoking command in '/home/yirehban/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/rviz_plugin_zed_od -- -j6 -l6
+[0.125s] -- Enabling tests requiring a display
+[0.126s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.704s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.708s] -- Found OGRE
+[0.708s] --   static     : OFF
+[0.708s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.709s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.709s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.709s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.709s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.709s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.709s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.709s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.710s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.710s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.710s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.859s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.863s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.873s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.892s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.036s] -- Found rviz_common: 11.2.19 (/opt/ros/humble/share/rviz_common/cmake)
+[1.083s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.161s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.247s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.252s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.284s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.300s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.326s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.341s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.478s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.635s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.666s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.669s] -- Configured cppcheck include dirs: /home/yirehban/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/src/include;/home/yirehban/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/src/plugin/include;$<BUILD_INTERFACE:/home/yirehban/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/include>
+[1.669s] -- Configured cppcheck exclude dirs and/or files: 
+[1.671s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.671s] -- Configured cpplint exclude dirs and/or files: 
+[1.672s] -- Added test 'lint_cmake' to check CMake code style
+[1.674s] -- Added test 'uncrustify' to check C / C++ code style
+[1.674s] -- Configured uncrustify additional arguments: 
+[1.675s] -- Added test 'xmllint' to check XML markup files
+[1.677s] -- Added test 'clang_format' to check C / C++ code style
+[1.685s] -- Configuring done
+[1.950s] -- Generating done
+[1.969s] -- Build files have been written to: /home/yirehban/ros2_ws/build/rviz_plugin_zed_od
+[2.098s] [ 20%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_zed_od[0m
+[3.341s] [ 20%] Built target rviz_plugin_zed_od_autogen
+[3.478s] [35m[1mConsolidate compiler generated dependencies of target rviz_plugin_zed_od[0m
+[3.545s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_info.cpp.o[0m
+[3.546s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_display.cpp.o[0m
+[3.546s] [ 80%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/rviz_plugin_zed_od_autogen/mocs_compilation.cpp.o[0m
+[29.043s] [100%] [32m[1mLinking CXX shared library librviz_plugin_zed_od.so[0m
+[32.402s] [100%] Built target rviz_plugin_zed_od

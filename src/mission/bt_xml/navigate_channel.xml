@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root BTCPP_format="4">
+  <BehaviorTree ID="Navigate_Channel">
+    <Fallback>
+      <Sequence>
+        <preferred_side_is_L preferred_side="R"/>
+        <Repeat num_cycles="3">
+          <Sequence>
+            <Center_sub_to_face_midpoint_between_white_PVC_on_the_left_and_red_PVC_on_the_right/>
+            <Move_past_PVC_posts/>
+          </Sequence>
+        </Repeat>
+      </Sequence>
+      <Repeat num_cycles="3">
+        <Sequence>
+          <Center_sub_to_face_midpoint_between_red_PVC_on_the_left_and_white_PVC_on_the_right/>
+          <Move_past_PVC_posts/>
+        </Sequence>
+      </Repeat>
+    </Fallback>
+  </BehaviorTree>
+</root>

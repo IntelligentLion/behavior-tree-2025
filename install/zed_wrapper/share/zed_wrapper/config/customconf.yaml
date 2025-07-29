@@ -1,0 +1,26 @@
+/**:
+  ros__parameters:
+
+    general:
+      enable_object_detection: true
+
+    object_detection:
+      custom_onnx_file: '/home/yirehban/Downloads/best.onnx'
+      custom_onnx_input_size: 640
+      custom_class_count: 1
+
+      class_000:
+        label: 'reefshark'
+        model_class_id: 0
+        enabled: true
+        confidence_threshold: 30.0
+        is_grounded: true
+        is_static: false
+
+      class_001:
+        label: 'sawfish'
+        model_class_id: 1
+        enabled: true
+        confidence_threshold: 30.0
+        is_grounded: true
+        is_static: false

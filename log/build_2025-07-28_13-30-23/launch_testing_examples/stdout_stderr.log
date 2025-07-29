@@ -1,0 +1,29 @@
+/home/yirehban/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+deleting ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+running build
+running build_py
+copying launch_testing_examples/__init__.py -> /home/yirehban/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+copying launch_testing_examples/set_param_launch_test.py -> /home/yirehban/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+copying launch_testing_examples/check_node_launch_test.py -> /home/yirehban/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+copying launch_testing_examples/hello_world_launch_test.py -> /home/yirehban/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/yirehban/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+copying launch_testing_examples/record_rosbag_launch_test.py -> /home/yirehban/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+copying launch_testing_examples/check_msgs_launch_test.py -> /home/yirehban/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+running install
+running install_lib
+running install_data
+copying resource/launch_testing_examples -> /home/yirehban/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+copying package.xml -> /home/yirehban/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+running install_egg_info
+removing '/home/yirehban/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.3-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/yirehban/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.3-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yirehban/ros2_ws/build/launch_testing_examples/install.log'

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root BTCPP_format="4">
+  <BehaviorTree ID="Ocean_Cleanup">
+    <ForceSuccess>
+      <Sequence>
+        <Find_task_location/>
+        <Submerge/>
+        <ForceSuccess>
+          <Sequence>
+            <RetryUntilSuccessful num_attempts="4">
+              <Sequence>
+                <Turn_right_90_deg/>
+                <Detect_preferred_animal_at_front_of_sub_roughly/>
+              </Sequence>
+            </RetryUntilSuccessful>
+            <Center_sub_perpendicular_to_preferred_animal/>
+          </Sequence>
+        </ForceSuccess>
+        <Repeat num_cycles="2">
+          <Sequence>
+            <Grab_trash_with_claw/>
+            <Resurface/>
+            <Move_and_place_trash_in_corresponding_basket/>
+            <Move_back_facing_initial_direction/>
+            <Submerge/>
+          </Sequence>
+        </Repeat>
+        <ForceSuccess>
+          <Sequence>
+            <Resurface/>
+            <Repeat num_cycles="2">
+              <Turn_right_90_deg/>
+            </Repeat>
+            <Submerge/>
+          </Sequence>
+        </ForceSuccess>
+      </Sequence>
+    </ForceSuccess>
+  </BehaviorTree>
+</root>

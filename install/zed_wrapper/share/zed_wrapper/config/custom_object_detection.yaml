@@ -12,7 +12,7 @@
 /**:
   ros__parameters:
       object_detection:
-          custom_onnx_file: '' # Path to the YOLO-like ONNX file for custom object detection directly performed by the ZED SDK
+          custom_onnx_file: '/home/yirehban/Downloads/best.onnx' # Path to the YOLO-like ONNX file for custom object detection directly performed by the ZED SDK
           custom_onnx_input_size: 512 # Resolution used with the YOLO-like ONNX file. For example, 512 means a input tensor '1x3x512x512' 
           
           custom_class_count: 80 # Number of classes in the custom ONNX file. For example, 80 for YOLOv8 trained on COCO dataset
@@ -23,7 +23,7 @@
           # Note: the class_XXX identifier is not required to match the class ID [model_class_id] in the custom ONNX file.
 
           class_000:
-            label: 'person'
+            label: 'reefshark'
             model_class_id: 0 # Class ID of the object in the custom ONNX file (it is not required that this value matches the value in the 'class_XXX' identifier)
             enabled: true # Enable/disable the detection of this class
             confidence_threshold: 50.0 # Minimum value of the detection confidence of an object [0,99]
@@ -43,7 +43,7 @@
             max_allowed_acceleration: 100000.0 # If set with a different value from the default [100000], this value takes precedence over the selected preset, allowing for a custom maximum acceleration. Unit is m/s^2.
 
           class_001:
-            label: 'bicycle'
+            label: 'sawfish'
             model_class_id: 1 # Class ID of the object in the custom ONNX file (it is not required that this value matches the value in the 'class_XXX' identifier)
             enabled: true # Enable/disable the detection of this class
             confidence_threshold: 50.0 # Minimum value of the detection confidence of an object [0,99]

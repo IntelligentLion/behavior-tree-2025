@@ -1,0 +1,43 @@
+[4.164s] Invoking command in '/home/yirehban/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data
+[4.539s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[4.540s]   warnings.warn(msg)
+[4.619s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[4.619s] !!
+[4.619s] 
+[4.619s]         ********************************************************************************
+[4.619s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[4.619s] 
+[4.620s]         License :: OSI Approved :: Apache Software License
+[4.620s] 
+[4.620s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[4.620s]         ********************************************************************************
+[4.620s] 
+[4.620s] !!
+[4.620s]   self._finalize_license_expression()
+[4.778s] running egg_info
+[4.817s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[4.819s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[4.820s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[4.821s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[4.821s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[4.903s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[4.906s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[4.907s] running build
+[4.907s] running build_py
+[4.908s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[4.909s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[4.909s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[4.910s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[4.911s] running install
+[4.921s] running install_lib
+[4.963s] running install_data
+[4.964s] copying resource/examples_rclpy_minimal_subscriber -> /home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[4.965s] copying package.xml -> /home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[4.965s] running install_egg_info
+[5.011s] removing '/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.3-py3.10.egg-info' (and everything under it)
+[5.012s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.3-py3.10.egg-info
+[5.020s] running install_scripts
+[5.123s] Installing subscriber_lambda script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.124s] Installing subscriber_member_function script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.124s] Installing subscriber_old_school script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.126s] writing list of installed files to '/home/yirehban/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'

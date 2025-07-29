@@ -1,0 +1,46 @@
+[2.769s] Invoking command in '/home/yirehban/ros2_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data
+[3.337s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.337s]   warnings.warn(msg)
+[3.509s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[3.509s] !!
+[3.509s] 
+[3.510s]         ********************************************************************************
+[3.510s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[3.510s] 
+[3.510s]         License :: OSI Approved :: Apache Software License
+[3.510s] 
+[3.510s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[3.510s]         ********************************************************************************
+[3.510s] 
+[3.511s] !!
+[3.511s]   self._finalize_license_expression()
+[3.710s] running egg_info
+[3.753s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[3.755s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[3.755s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[3.756s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[3.759s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[3.859s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[3.863s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[3.864s] running build
+[3.864s] running build_py
+[3.864s] copying examples_rclpy_minimal_action_client/client_cancel.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[3.869s] copying examples_rclpy_minimal_action_client/client.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[3.869s] copying examples_rclpy_minimal_action_client/client_asyncio.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[3.870s] copying examples_rclpy_minimal_action_client/__init__.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[3.870s] copying examples_rclpy_minimal_action_client/client_not_composable.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[3.876s] running install
+[3.888s] running install_lib
+[3.938s] running install_data
+[3.940s] copying resource/examples_rclpy_minimal_action_client -> /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[3.944s] copying package.xml -> /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client
+[3.945s] running install_egg_info
+[3.992s] removing '/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.3-py3.10.egg-info' (and everything under it)
+[4.007s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.3-py3.10.egg-info
+[4.033s] running install_scripts
+[4.116s] Installing client script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.119s] Installing client_asyncio script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.119s] Installing client_cancel script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.119s] Installing client_not_composable script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.119s] writing list of installed files to '/home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/install.log'
+[5.223s] Invoked command in '/home/yirehban/ros2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data

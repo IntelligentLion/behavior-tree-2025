@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root BTCPP_format="4">
+  <BehaviorTree ID="Tagging">
+    <Sequence>
+      <Find_task_location/>
+      <ForceSuccess>
+        <Sequence>
+          <Center_on_board_on_the_z_axis_and_yaw/>
+          <Repeat num_cycles="2">
+            <Detect_and_fire_torpedoes_at_opening_closest_to_preferred_animal/>
+          </Repeat>
+        </Sequence>
+      </ForceSuccess>
+    </Sequence>
+  </BehaviorTree>
+</root>

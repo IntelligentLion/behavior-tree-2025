@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/localization/localization.egg-info
+writing ../../build/localization/localization.egg-info/PKG-INFO
+writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+writing requirements to ../../build/localization/localization.egg-info/requires.txt
+writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yirehban/ros2_ws/build/localization/build/lib/localization
+copying localization/__init__.py -> /home/yirehban/ros2_ws/build/localization/build/lib/localization
+running install
+running install_lib
+creating /home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages/localization
+copying /home/yirehban/ros2_ws/build/localization/build/lib/localization/__init__.py -> /home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages/localization
+byte-compiling /home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages/localization/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yirehban/ros2_ws/install/localization/share/ament_index/resource_index/packages
+copying resource/localization -> /home/yirehban/ros2_ws/install/localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/yirehban/ros2_ws/install/localization/share/localization
+running install_egg_info
+Copying ../../build/localization/localization.egg-info to /home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yirehban/ros2_ws/build/localization/install.log'

@@ -1,0 +1,30 @@
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yirehban/ros2_ws/build/zed_multi_camera
+-- Install configuration: ""
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/launch
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/launch/zed_multi_camera.launch.py
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/urdf
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/urdf/zed_multi.urdf.xacro
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/ament_index/resource_index/package_run_dependencies/zed_multi_camera
+-- Installing: /home/yirehban/ros2_ws/install/zed_multi_camera/share/ament_index/resource_index/parent_prefix_path/zed_multi_camera
+-- Installing: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/environment/ament_prefix_path.sh
+-- Installing: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/environment/ament_prefix_path.dsv
+-- Installing: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/environment/path.sh
+-- Installing: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/environment/path.dsv
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/local_setup.bash
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/local_setup.sh
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/local_setup.zsh
+-- Installing: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/local_setup.dsv
+-- Installing: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/package.dsv
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/ament_index/resource_index/packages/zed_multi_camera
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/cmake/zed_multi_cameraConfig.cmake
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/cmake/zed_multi_cameraConfig-version.cmake
+-- Up-to-date: /home/yirehban/ros2_ws/install/zed_multi_camera/share/zed_multi_camera/package.xml

@@ -1,0 +1,50 @@
+[4.651s] Invoking command in '/home/yirehban/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_executors/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[6.939s] running egg_info
+[6.939s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[6.939s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[6.940s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[6.940s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[6.940s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[6.940s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.940s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.940s] running build
+[6.940s] running build_py
+[6.940s] copying examples_rclpy_executors/callback_group.py -> /home/yirehban/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.941s] copying examples_rclpy_executors/__init__.py -> /home/yirehban/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.941s] copying examples_rclpy_executors/custom_callback_group.py -> /home/yirehban/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.941s] copying examples_rclpy_executors/listener.py -> /home/yirehban/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.941s] copying examples_rclpy_executors/custom_executor.py -> /home/yirehban/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.941s] copying examples_rclpy_executors/composed.py -> /home/yirehban/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.941s] copying examples_rclpy_executors/talker.py -> /home/yirehban/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.941s] running install
+[6.941s] running install_lib
+[6.941s] running install_data
+[6.942s] copying resource/examples_rclpy_executors -> /home/yirehban/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[6.942s] copying package.xml -> /home/yirehban/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[6.942s] running install_egg_info
+[6.942s] removing '/home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info' (and everything under it)
+[6.942s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info
+[6.942s] running install_scripts
+[6.942s] Installing callback_group script to /home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.942s] Installing composed script to /home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.943s] Installing custom_callback_group script to /home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.943s] Installing custom_executor script to /home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.943s] Installing listener script to /home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.943s] Installing talker script to /home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.943s] writing list of installed files to '/home/yirehban/ros2_ws/build/examples_rclpy_executors/install.log'
+[6.961s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[6.961s]   warnings.warn(msg)
+[6.961s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[6.962s] !!
+[6.962s] 
+[6.962s]         ********************************************************************************
+[6.962s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[6.962s] 
+[6.962s]         License :: OSI Approved :: Apache Software License
+[6.962s] 
+[6.962s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[6.962s]         ********************************************************************************
+[6.963s] 
+[6.963s] !!
+[6.963s]   self._finalize_license_expression()
+[6.980s] Invoked command in '/home/yirehban/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_executors/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data

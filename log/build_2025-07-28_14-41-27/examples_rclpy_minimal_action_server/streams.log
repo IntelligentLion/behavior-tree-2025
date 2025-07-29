@@ -1,0 +1,48 @@
+[2.903s] Invoking command in '/home/yirehban/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[3.286s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.286s]   warnings.warn(msg)
+[3.362s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[3.362s] !!
+[3.362s] 
+[3.362s]         ********************************************************************************
+[3.362s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[3.362s] 
+[3.363s]         License :: OSI Approved :: Apache Software License
+[3.363s] 
+[3.363s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[3.363s]         ********************************************************************************
+[3.363s] 
+[3.363s] !!
+[3.363s]   self._finalize_license_expression()
+[3.520s] running egg_info
+[3.558s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[3.560s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[3.560s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[3.561s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[3.561s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[3.642s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.646s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.646s] running build
+[3.647s] running build_py
+[3.647s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.649s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.649s] copying examples_rclpy_minimal_action_server/server.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.650s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.650s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.651s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.652s] running install
+[3.660s] running install_lib
+[3.701s] running install_data
+[3.702s] copying resource/examples_rclpy_minimal_action_server -> /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[3.702s] copying package.xml -> /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[3.702s] running install_egg_info
+[3.745s] removing '/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info' (and everything under it)
+[3.745s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info
+[3.749s] running install_scripts
+[3.831s] Installing server script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.831s] Installing server_defer script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.831s] Installing server_not_composable script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.832s] Installing server_queue_goals script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.832s] Installing server_single_goal script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.833s] writing list of installed files to '/home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[4.133s] Invoked command in '/home/yirehban/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data

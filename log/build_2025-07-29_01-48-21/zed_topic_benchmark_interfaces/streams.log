@@ -1,0 +1,144 @@
+[0.105s] Invoking command in '/home/yirehban/ros2_ws/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_topic_benchmark_interfaces -- -j6 -l6
+[0.515s] [  3%] Built target zed_topic_benchmark_interfaces__cpp
+[0.579s] [  3%] Built target ament_cmake_python_copy_zed_topic_benchmark_interfaces
+[0.599s] [ 12%] Built target zed_topic_benchmark_interfaces__rosidl_generator_c
+[0.633s] [ 22%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_cpp
+[0.659s] [ 32%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp
+[0.692s] [ 41%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.701s] [ 51%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c
+[0.738s] [ 61%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_c
+[0.768s] [ 70%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c
+[0.848s] [ 70%] Built target zed_topic_benchmark_interfaces
+[0.952s] [ 74%] Built target zed_topic_benchmark_interfaces__py
+[1.126s] [ 80%] Built target zed_topic_benchmark_interfaces__rosidl_generator_py
+[1.227s] [ 87%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.245s] [ 93%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.269s] [100%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext
+[1.354s] running egg_info
+[1.403s] writing zed_topic_benchmark_interfaces.egg-info/PKG-INFO
+[1.414s] writing dependency_links to zed_topic_benchmark_interfaces.egg-info/dependency_links.txt
+[1.423s] writing top-level names to zed_topic_benchmark_interfaces.egg-info/top_level.txt
+[1.749s] reading manifest file 'zed_topic_benchmark_interfaces.egg-info/SOURCES.txt'
+[1.750s] writing manifest file 'zed_topic_benchmark_interfaces.egg-info/SOURCES.txt'
+[1.957s] [100%] Built target ament_cmake_python_build_zed_topic_benchmark_interfaces_egg
+[2.147s] Invoked command in '/home/yirehban/ros2_ws/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_topic_benchmark_interfaces -- -j6 -l6
+[2.157s] Invoking command in '/home/yirehban/ros2_ws/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/zed_topic_benchmark_interfaces
+[2.202s] -- Install configuration: ""
+[2.202s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_topic_benchmark_interfaces
+[2.202s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[2.203s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[2.203s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[2.207s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__struct.h
+[2.207s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.c
+[2.208s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.h
+[2.208s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.h
+[2.208s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.208s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped.h
+[2.208s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/library_path.sh
+[2.208s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/library_path.dsv
+[2.208s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_c.so
+[2.208s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[2.209s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[2.209s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[2.209s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_fastrtps_c.h
+[2.209s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.210s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.210s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[2.210s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[2.210s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[2.210s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.hpp
+[2.210s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__traits.hpp
+[2.210s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__builder.hpp
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__struct.hpp
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped.hpp
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/dds_fastrtps
+[2.211s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.212s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.212s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[2.213s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[2.213s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[2.214s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.c
+[2.214s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_introspection_c.h
+[2.214s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.215s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.so
+[2.220s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_c.so
+[2.222s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[2.222s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[2.222s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[2.223s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_introspection_cpp.hpp
+[2.223s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.cpp
+[2.223s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.224s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_cpp.so
+[2.229s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/pythonpath.sh
+[2.230s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/pythonpath.dsv
+[2.231s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info
+[2.231s] -- Installing: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info/PKG-INFO
+[2.231s] -- Installing: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info/top_level.txt
+[2.231s] -- Installing: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info/dependency_links.txt
+[2.231s] -- Installing: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info/SOURCES.txt
+[2.231s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces
+[2.232s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg
+[2.232s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/__init__.py
+[2.232s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped.py
+[2.232s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped_s.c
+[2.232s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.232s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.232s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/__init__.py
+[2.232s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_c.c
+[2.233s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.233s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.233s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.233s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/libzed_topic_benchmark_interfaces__rosidl_generator_py.so
+[2.397s] Listing '/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces'...
+[2.397s] Listing '/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg'...
+[2.405s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.413s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.416s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.416s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_py.so
+[2.417s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/msg/BenchmarkStatsStamped.idl
+[2.417s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/msg/BenchmarkStatsStamped.msg
+[2.417s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_topic_benchmark_interfaces
+[2.417s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_topic_benchmark_interfaces
+[2.418s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.sh
+[2.418s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.dsv
+[2.419s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.sh
+[2.420s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.dsv
+[2.420s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.bash
+[2.420s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.sh
+[2.421s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.zsh
+[2.422s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.dsv
+[2.422s] -- Installing: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.dsv
+[2.422s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/packages/zed_topic_benchmark_interfaces
+[2.423s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cExport.cmake
+[2.423s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.429s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.430s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.430s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cppExport.cmake
+[2.431s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.431s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.432s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.432s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.432s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cExport.cmake
+[2.432s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.433s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.433s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.433s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cppExport.cmake
+[2.433s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.436s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_pyExport.cmake
+[2.437s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.442s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.451s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.451s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.451s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.451s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.452s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.452s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.452s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig.cmake
+[2.453s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig-version.cmake
+[2.453s] -- Up-to-date: /home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.xml
+[2.546s] Invoked command in '/home/yirehban/ros2_ws/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/zed_topic_benchmark_interfaces

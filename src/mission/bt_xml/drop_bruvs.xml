@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root BTCPP_format="4">
+  <BehaviorTree ID="Drop_BRUVS">
+    <ForceSuccess>
+      <Sequence>
+        <Move_sub_until_aligned_with_preferred_animal_on_bin/>
+        <Repeat num_cycles="2">
+          <Drop_marker/>
+        </Repeat>
+      </Sequence>
+    </ForceSuccess>
+  </BehaviorTree>
+</root>

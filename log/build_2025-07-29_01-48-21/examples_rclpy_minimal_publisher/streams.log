@@ -1,0 +1,46 @@
+[2.801s] Invoking command in '/home/yirehban/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[3.353s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.353s]   warnings.warn(msg)
+[3.482s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[3.483s] !!
+[3.483s] 
+[3.483s]         ********************************************************************************
+[3.483s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[3.483s] 
+[3.483s]         License :: OSI Approved :: Apache Software License
+[3.483s] 
+[3.483s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[3.484s]         ********************************************************************************
+[3.484s] 
+[3.484s] !!
+[3.484s]   self._finalize_license_expression()
+[3.700s] running egg_info
+[3.756s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.759s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.761s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.763s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.765s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.880s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.888s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.889s] running build
+[3.890s] running build_py
+[3.892s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.894s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.895s] copying examples_rclpy_minimal_publisher/publisher_member_function_with_wait_for_all_acked.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.912s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.914s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.917s] running install
+[3.927s] running install_lib
+[3.980s] running install_data
+[3.982s] copying resource/examples_rclpy_minimal_publisher -> /home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[3.984s] copying package.xml -> /home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[3.986s] running install_egg_info
+[4.042s] removing '/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.3-py3.10.egg-info' (and everything under it)
+[4.050s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.3-py3.10.egg-info
+[4.059s] running install_scripts
+[4.163s] Installing publisher_local_function script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.164s] Installing publisher_member_function script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.167s] Installing publisher_member_function_with_wait_for_all_acked script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.167s] Installing publisher_old_school script to /home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.176s] writing list of installed files to '/home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[4.378s] Invoked command in '/home/yirehban/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/yirehban/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

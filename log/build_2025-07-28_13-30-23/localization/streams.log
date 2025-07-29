@@ -1,0 +1,29 @@
+[3.018s] Invoking command in '/home/yirehban/ros2_ws/src/localization': PYTHONPATH=/home/yirehban/ros2_ws/build/localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/yirehban/ros2_ws/build/localization/build install --record /home/yirehban/ros2_ws/build/localization/install.log --single-version-externally-managed install_data
+[3.548s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.549s]   warnings.warn(msg)
+[3.857s] running egg_info
+[3.907s] creating ../../build/localization/localization.egg-info
+[3.909s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[3.912s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[3.913s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[3.914s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[3.916s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[4.016s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[4.018s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[4.019s] running build
+[4.019s] running build_py
+[4.019s] creating /home/yirehban/ros2_ws/build/localization/build/lib/localization
+[4.020s] copying localization/__init__.py -> /home/yirehban/ros2_ws/build/localization/build/lib/localization
+[4.021s] running install
+[4.030s] running install_lib
+[4.097s] creating /home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages/localization
+[4.097s] copying /home/yirehban/ros2_ws/build/localization/build/lib/localization/__init__.py -> /home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages/localization
+[4.099s] byte-compiling /home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages/localization/__init__.py to __init__.cpython-310.pyc
+[4.100s] running install_data
+[4.100s] creating /home/yirehban/ros2_ws/install/localization/share/ament_index/resource_index/packages
+[4.101s] copying resource/localization -> /home/yirehban/ros2_ws/install/localization/share/ament_index/resource_index/packages
+[4.101s] copying package.xml -> /home/yirehban/ros2_ws/install/localization/share/localization
+[4.102s] running install_egg_info
+[4.146s] Copying ../../build/localization/localization.egg-info to /home/yirehban/ros2_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[4.148s] running install_scripts
+[4.233s] writing list of installed files to '/home/yirehban/ros2_ws/build/localization/install.log'

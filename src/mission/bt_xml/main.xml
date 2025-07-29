@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="Collecting Data">
+    <Sequence>
+      <Fallback>
+        <Sequence>
+          <Detect_preferred_animal_left_of_center preferred_animal="Depends on which animal is better detected"/>
+          <Reposition_sub_to_gate_left_entrance/>
+          <Set_preferred_side_to_L preferred_side="L"/>
+        </Sequence>
+        <Sequence>
+          <Reposition_sub_to_gate_right_entrance/>
+          <Set_preferred_side_to_R preferred_side="R"/>
+        </Sequence>
+      </Fallback>
+      <Fallback>
+        <Move_with_style_through_gate/>
+        <Move_in_the_most_boring_way_possible_through_the_gate/>
+      </Fallback>
+      <SubTree ID="Follow Path"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Drop a BRUVS">
+    <ForceSuccess>
+      <Sequence>
+        <Move_sub_until_aligned_with_preferred_animal_on_bin/>
+        <Repeat num_cycles="2">
+          <Drop_marker/>
+        </Repeat>
+      </Sequence>
+    </ForceSuccess>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Follow Path">
+    <Sequence>
+      <Turn_right_until_parallel_with_Path_and_facing_away_from_the_end/>
+      <Move_until_the_other_end_of_the_path/>
+    </Sequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Heading Out">
+    <Sequence>
+      <Submerge/>
+      <RetryUntilSuccessful num_attempts="3">
+        <Sequence>
+          <Turn_right_90_deg/>
+          <Detect_gate_at_front_of_sub/>
+        </Sequence>
+      </RetryUntilSuccessful>
+      <Center_sub_perpendicular_to_gate/>
+    </Sequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Navigate the Channel">
+    <Fallback>
+      <Sequence>
+        <preferred_side_is_L preferred_side="whatever was decided"/>
+        <Repeat num_cycles="3">
+          <Sequence>
+            <Center_sub_to_face_midpoint_between_white_PVC_on_the_left_and_red_PVC_on_the_right/>
+            <Move_past_PVC_posts/>
+          </Sequence>
+        </Repeat>
+      </Sequence>
+      <Repeat num_cycles="3">
+        <Sequence>
+          <Center_sub_to_face_midpoint_between_red_PVC_on_the_left_and_white_PVC_on_the_right/>
+          <Move_past_PVC_posts/>
+        </Sequence>
+      </Repeat>
+    </Fallback>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Ocean Cleanup">
+    <ForceSuccess>
+      <Sequence>
+        <Find_task_location/>
+        <Submerge/>
+        <ForceSuccess>
+          <Sequence>
+            <RetryUntilSuccessful num_attempts="4">
+              <Sequence>
+                <Turn_right_90_deg/>
+                <Detect_preferred_animal_at_front_of_sub_roughly/>
+              </Sequence>
+            </RetryUntilSuccessful>
+            <Center_sub_perpendicular_to_preferred_animal/>
+          </Sequence>
+        </ForceSuccess>
+        <Repeat num_cycles="2">
+          <Sequence>
+            <Grab_trash_with_claw/>
+            <Resurface/>
+            <Move_and_place_trash_in_corresponding_basket/>
+            <Move_back_facing_initial_direction/>
+            <Submerge/>
+          </Sequence>
+        </Repeat>
+        <ForceSuccess>
+          <Sequence>
+            <Resurface/>
+            <Repeat num_cycles="2">
+              <Turn_right_90_deg/>
+            </Repeat>
+            <Submerge/>
+          </Sequence>
+        </ForceSuccess>
+      </Sequence>
+    </ForceSuccess>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Return Home">
+    <Sequence>
+      <Move_to_depth_taken_for_Navigating_the_Channel/>
+      <Turn_right_180_deg/>
+      <Make_it_back_through_gate/>
+      <Resurface/>
+    </Sequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="SHRUB (Software for Handling and Regulating Underwater Behavior)">
+    <Sequence>
+      <SubTree ID="Heading_Out"
+               _autoremap="false"/>
+      <SubTree ID="Collecting Data"
+               _autoremap="false"/>
+      <SubTree ID="Navigate the Channel"/>
+      <SubTree ID="Drop a BRUVS"/>
+      <SubTree ID="Tagging"/>
+      <SubTree ID="Ocean Cleanup"/>
+      <SubTree ID="Return Home"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Tagging">
+    <Sequence>
+      <Find_task_location/>
+      <ForceSuccess>
+        <Sequence>
+          <Center_on_board_on_the_z_axis_and_yaw/>
+          <Repeat num_cycles="2">
+            <Detect_and_fire_torpedoes_at_opening_closest_to_preferred_animal/>
+          </Repeat>
+        </Sequence>
+      </ForceSuccess>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="Center_on_board_on_the_z_axis_and_yaw"
+            editable="true"/>
+    <Action ID="Center_sub_perpendicular_to_gate"
+            editable="true"/>
+    <Action ID="Center_sub_perpendicular_to_preferred_animal"
+            editable="true"/>
+    <Action ID="Center_sub_to_face_midpoint_between_red_PVC_on_the_left_and_white_PVC_on_the_right"
+            editable="true"/>
+    <Action ID="Center_sub_to_face_midpoint_between_white_PVC_on_the_left_and_red_PVC_on_the_right"
+            editable="true"/>
+    <Action ID="Detect_and_fire_torpedoes_at_opening_closest_to_preferred_animal"
+            editable="true"/>
+    <Condition ID="Detect_gate_at_front_of_sub"
+               editable="true"/>
+    <Condition ID="Detect_preferred_animal_at_front_of_sub_roughly"
+               editable="true"/>
+    <Condition ID="Detect_preferred_animal_left_of_center"
+               editable="true">
+      <input_port name="preferred_animal"
+                  default="idk lol">Decided during compile-time</input_port>
+    </Condition>
+    <Action ID="Drop_marker"
+            editable="true"/>
+    <Action ID="Find_task_location"
+            editable="true"/>
+    <Action ID="Grab_trash_with_claw"
+            editable="true"/>
+    <Action ID="Move_and_place_trash_in_corresponding_basket"
+            editable="true"/>
+    <Action ID="Move_back_facing_initial_direction"
+            editable="true"/>
+    <Action ID="Move_in_the_most_boring_way_possible_through_the_gate"
+            editable="true"/>
+    <Action ID="Move_past_PVC_posts"
+            editable="true"/>
+    <Action ID="Move_sub_until_aligned_with_preferred_animal_on_bin"
+            editable="true"/>
+    <Action ID="Move_to_depth_taken_for_Navigating_the_Channel"
+            editable="true"/>
+    <Action ID="Move_until_the_other_end_of_the_path"
+            editable="true"/>
+    <Action ID="Move_with_style_through_gate"
+            editable="true"/>
+    <Action ID="Make_it_back_through_gate"
+            editable="true"/>
+    <Action ID="Reposition_sub_to_gate_left_entrance"
+            editable="true"/>
+    <Action ID="Reposition_sub_to_gate_right_entrance"
+            editable="true"/>
+    <Action ID="Resurface"
+            editable="true"/>
+    <Action ID="Set_preferred_side_to_L"
+            editable="true">
+      <output_port name="preferred_side"
+                   default="idk lol">Set to either L or R</output_port>
+    </Action>
+    <Action ID="Set_preferred_side_to_R"
+            editable="true">
+      <output_port name="preferred_side"
+                   default="R"/>
+    </Action>
+    <Action ID="Submerge"
+            editable="true"/>
+    <Action ID="Turn_right_180_deg"
+            editable="true"/>
+    <Action ID="Turn_right_90_deg"
+            editable="true"/>
+    <Action ID="Turn_right_until_parallel_with_Path_and_facing_away_from_the_end"
+            editable="true"/>
+    <Condition ID="preferred_side_is_L"
+               editable="true">
+      <input_port name="preferred_side"
+                  default="idk lol"/>
+    </Condition>
+  </TreeNodesModel>
+
+</root>

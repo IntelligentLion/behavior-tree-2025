@@ -1,0 +1,15 @@
+[0.062s] Invoking command in '/home/yirehban/ros2_ws/src/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/src/install/examples_rclcpp_minimal_action_server
+[2.874s] -- The C compiler identification is GNU 11.4.0
+[2.874s] -- The CXX compiler identification is GNU 11.4.0
+[2.875s] -- Detecting C compiler ABI info
+[2.875s] -- Detecting C compiler ABI info - done
+[2.875s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.875s] -- Detecting C compile features
+[2.875s] -- Detecting C compile features - done
+[2.875s] -- Detecting CXX compiler ABI info
+[2.875s] -- Detecting CXX compiler ABI info - done
+[2.877s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.885s] -- Detecting CXX compile features
+[2.892s] -- Detecting CXX compile features - done
+[2.940s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.609s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
