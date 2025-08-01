@@ -1,0 +1,146 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install",
+			"ament_cmake_symlink_install_directory"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"3rdparty/lexy/CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"3rdparty/lexy/src/liblexy_file.a"
+			],
+			"targetId" : "lexy_file::@2f813746fd03722eaf91",
+			"targetIndex" : 40,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/lexy",
+			"exportName" : "lexyTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "lexy::@2f813746fd03722eaf91",
+					"index" : 0
+				},
+				{
+					"id" : "lexy_core::@2f813746fd03722eaf91",
+					"index" : 0
+				},
+				{
+					"id" : "lexy_file::@2f813746fd03722eaf91",
+					"index" : 40
+				},
+				{
+					"id" : "lexy_unicode::@2f813746fd03722eaf91",
+					"index" : 0
+				},
+				{
+					"id" : "lexy_ext::@2f813746fd03722eaf91",
+					"index" : 0
+				},
+				{
+					"id" : "_lexy_base::@2f813746fd03722eaf91",
+					"index" : 0
+				},
+				{
+					"id" : "lexy_dev::@2f813746fd03722eaf91",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"3rdparty/lexy/CMakeFiles/Export/lib/cmake/lexy/lexyTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"3rdparty/lexy/include/lexy",
+				"3rdparty/lexy/include/lexy_ext"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "3rdparty/lexy",
+		"source" : "3rdparty/lexy"
+	}
+}

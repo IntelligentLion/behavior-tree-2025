@@ -1,0 +1,212 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "3rdparty/lexy/src/liblexy_file.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"3rdparty/lexy/src/CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"3rdparty/lexy/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 17,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 80,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 203,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG   -Wpedantic -fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-pedantic-errors"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-parentheses"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-unused-local-typedefs"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-array-bounds"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-maybe-uninitialized"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-restrict"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "USING_ROS2"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/yirehban/ros2_ws/src/mission/BehaviorTree.CPP/3rdparty/lexy/src/../include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "lexy_file::@2f813746fd03722eaf91",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/yirehban/ros2_ws/install/behaviortree_cpp"
+		}
+	},
+	"name" : "lexy_file",
+	"nameOnDisk" : "liblexy_file.a",
+	"paths" : 
+	{
+		"build" : "3rdparty/lexy/src",
+		"source" : "3rdparty/lexy/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "3rdparty/lexy/src/input/file.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

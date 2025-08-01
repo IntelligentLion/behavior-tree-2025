@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yirehban/ros2_ws/src/mission
+CMAKE_SOURCE_DIR = /home/yirehban/ros2_ws/src/mission/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/yirehban/ros2_ws/build/mission
@@ -210,149 +210,101 @@ bt_runner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/build
 .PHONY : bt_runner/fast
 
-src/gate_detected.o: src/gate_detected.cpp.o
-.PHONY : src/gate_detected.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-src/gate_detected.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o
-.PHONY : src/gate_detected.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-src/gate_detected.i: src/gate_detected.cpp.i
-.PHONY : src/gate_detected.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-src/gate_detected.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/gate_detected.cpp.i
-.PHONY : src/gate_detected.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-src/gate_detected.s: src/gate_detected.cpp.s
-.PHONY : src/gate_detected.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-src/gate_detected.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/gate_detected.cpp.s
-.PHONY : src/gate_detected.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+nodes/detect_object.o: nodes/detect_object.cpp.o
+.PHONY : nodes/detect_object.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+nodes/detect_object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o
+.PHONY : nodes/detect_object.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+nodes/detect_object.i: nodes/detect_object.cpp.i
+.PHONY : nodes/detect_object.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+nodes/detect_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.i
+.PHONY : nodes/detect_object.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+nodes/detect_object.s: nodes/detect_object.cpp.s
+.PHONY : nodes/detect_object.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+nodes/detect_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.s
+.PHONY : nodes/detect_object.cpp.s
 
-src/navigate_to_gate.o: src/navigate_to_gate.cpp.o
-.PHONY : src/navigate_to_gate.o
+nodes/move_to.o: nodes/move_to.cpp.o
+.PHONY : nodes/move_to.o
 
 # target to build an object file
-src/navigate_to_gate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o
-.PHONY : src/navigate_to_gate.cpp.o
+nodes/move_to.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o
+.PHONY : nodes/move_to.cpp.o
 
-src/navigate_to_gate.i: src/navigate_to_gate.cpp.i
-.PHONY : src/navigate_to_gate.i
+nodes/move_to.i: nodes/move_to.cpp.i
+.PHONY : nodes/move_to.i
 
 # target to preprocess a source file
-src/navigate_to_gate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.i
-.PHONY : src/navigate_to_gate.cpp.i
+nodes/move_to.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/move_to.cpp.i
+.PHONY : nodes/move_to.cpp.i
 
-src/navigate_to_gate.s: src/navigate_to_gate.cpp.s
-.PHONY : src/navigate_to_gate.s
+nodes/move_to.s: nodes/move_to.cpp.s
+.PHONY : nodes/move_to.s
 
 # target to generate assembly for a file
-src/navigate_to_gate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.s
-.PHONY : src/navigate_to_gate.cpp.s
+nodes/move_to.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/move_to.cpp.s
+.PHONY : nodes/move_to.cpp.s
 
-src/pass_through_gate.o: src/pass_through_gate.cpp.o
-.PHONY : src/pass_through_gate.o
+nodes/rotate.o: nodes/rotate.cpp.o
+.PHONY : nodes/rotate.o
 
 # target to build an object file
-src/pass_through_gate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o
-.PHONY : src/pass_through_gate.cpp.o
+nodes/rotate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o
+.PHONY : nodes/rotate.cpp.o
 
-src/pass_through_gate.i: src/pass_through_gate.cpp.i
-.PHONY : src/pass_through_gate.i
-
-# target to preprocess a source file
-src/pass_through_gate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.i
-.PHONY : src/pass_through_gate.cpp.i
-
-src/pass_through_gate.s: src/pass_through_gate.cpp.s
-.PHONY : src/pass_through_gate.s
-
-# target to generate assembly for a file
-src/pass_through_gate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.s
-.PHONY : src/pass_through_gate.cpp.s
-
-src/search_pattern.o: src/search_pattern.cpp.o
-.PHONY : src/search_pattern.o
-
-# target to build an object file
-src/search_pattern.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o
-.PHONY : src/search_pattern.cpp.o
-
-src/search_pattern.i: src/search_pattern.cpp.i
-.PHONY : src/search_pattern.i
+nodes/rotate.i: nodes/rotate.cpp.i
+.PHONY : nodes/rotate.i
 
 # target to preprocess a source file
-src/search_pattern.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/search_pattern.cpp.i
-.PHONY : src/search_pattern.cpp.i
+nodes/rotate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/rotate.cpp.i
+.PHONY : nodes/rotate.cpp.i
 
-src/search_pattern.s: src/search_pattern.cpp.s
-.PHONY : src/search_pattern.s
-
-# target to generate assembly for a file
-src/search_pattern.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/search_pattern.cpp.s
-.PHONY : src/search_pattern.cpp.s
-
-src/turn_180.o: src/turn_180.cpp.o
-.PHONY : src/turn_180.o
-
-# target to build an object file
-src/turn_180.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/turn_180.cpp.o
-.PHONY : src/turn_180.cpp.o
-
-src/turn_180.i: src/turn_180.cpp.i
-.PHONY : src/turn_180.i
-
-# target to preprocess a source file
-src/turn_180.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/turn_180.cpp.i
-.PHONY : src/turn_180.cpp.i
-
-src/turn_180.s: src/turn_180.cpp.s
-.PHONY : src/turn_180.s
+nodes/rotate.s: nodes/rotate.cpp.s
+.PHONY : nodes/rotate.s
 
 # target to generate assembly for a file
-src/turn_180.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/turn_180.cpp.s
-.PHONY : src/turn_180.cpp.s
+nodes/rotate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/nodes/rotate.cpp.s
+.PHONY : nodes/rotate.cpp.s
 
 # Help Target
 help:
@@ -370,24 +322,18 @@ help:
 	@echo "... mission_uninstall"
 	@echo "... uninstall"
 	@echo "... bt_runner"
-	@echo "... src/gate_detected.o"
-	@echo "... src/gate_detected.i"
-	@echo "... src/gate_detected.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/navigate_to_gate.o"
-	@echo "... src/navigate_to_gate.i"
-	@echo "... src/navigate_to_gate.s"
-	@echo "... src/pass_through_gate.o"
-	@echo "... src/pass_through_gate.i"
-	@echo "... src/pass_through_gate.s"
-	@echo "... src/search_pattern.o"
-	@echo "... src/search_pattern.i"
-	@echo "... src/search_pattern.s"
-	@echo "... src/turn_180.o"
-	@echo "... src/turn_180.i"
-	@echo "... src/turn_180.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... nodes/detect_object.o"
+	@echo "... nodes/detect_object.i"
+	@echo "... nodes/detect_object.s"
+	@echo "... nodes/move_to.o"
+	@echo "... nodes/move_to.i"
+	@echo "... nodes/move_to.s"
+	@echo "... nodes/rotate.o"
+	@echo "... nodes/rotate.i"
+	@echo "... nodes/rotate.s"
 .PHONY : help
 
 

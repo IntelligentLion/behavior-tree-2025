@@ -1,2 +1,1 @@
-source;share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
-source;share/examples_rclcpp_cbg_executor/environment/path.sh
+/home/yirehban/ros2_ws/build/examples_rclcpp_cbg_executor/ament_cmake_environment_hooks/local_setup.dsv

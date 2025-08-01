@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yirehban/ros2_ws/src/mission
+CMAKE_SOURCE_DIR = /home/yirehban/ros2_ws/src/mission/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/yirehban/ros2_ws/build/mission
@@ -69,114 +69,89 @@ include CMakeFiles/bt_runner.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/bt_runner.dir/flags.make
 
-CMakeFiles/bt_runner.dir/src/main.cpp.o: CMakeFiles/bt_runner.dir/flags.make
-CMakeFiles/bt_runner.dir/src/main.cpp.o: /home/yirehban/ros2_ws/src/mission/src/main.cpp
-CMakeFiles/bt_runner.dir/src/main.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bt_runner.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/src/main.cpp.o -MF CMakeFiles/bt_runner.dir/src/main.cpp.o.d -o CMakeFiles/bt_runner.dir/src/main.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/main.cpp
+CMakeFiles/bt_runner.dir/main.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/main.cpp.o: /home/yirehban/ros2_ws/src/mission/src/main.cpp
+CMakeFiles/bt_runner.dir/main.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bt_runner.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/main.cpp.o -MF CMakeFiles/bt_runner.dir/main.cpp.o.d -o CMakeFiles/bt_runner.dir/main.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/main.cpp
 
-CMakeFiles/bt_runner.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/main.cpp > CMakeFiles/bt_runner.dir/src/main.cpp.i
+CMakeFiles/bt_runner.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/main.cpp > CMakeFiles/bt_runner.dir/main.cpp.i
 
-CMakeFiles/bt_runner.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/main.cpp -o CMakeFiles/bt_runner.dir/src/main.cpp.s
+CMakeFiles/bt_runner.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/main.cpp -o CMakeFiles/bt_runner.dir/main.cpp.s
 
-CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o: CMakeFiles/bt_runner.dir/flags.make
-CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o: /home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp
-CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o -MF CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o.d -o CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp
+CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o: /home/yirehban/ros2_ws/src/mission/src/nodes/rotate.cpp
+CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o -MF CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o.d -o CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/nodes/rotate.cpp
 
-CMakeFiles/bt_runner.dir/src/gate_detected.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/src/gate_detected.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp > CMakeFiles/bt_runner.dir/src/gate_detected.cpp.i
+CMakeFiles/bt_runner.dir/nodes/rotate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/nodes/rotate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/nodes/rotate.cpp > CMakeFiles/bt_runner.dir/nodes/rotate.cpp.i
 
-CMakeFiles/bt_runner.dir/src/gate_detected.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/src/gate_detected.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp -o CMakeFiles/bt_runner.dir/src/gate_detected.cpp.s
+CMakeFiles/bt_runner.dir/nodes/rotate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/nodes/rotate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/nodes/rotate.cpp -o CMakeFiles/bt_runner.dir/nodes/rotate.cpp.s
 
-CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o: CMakeFiles/bt_runner.dir/flags.make
-CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o: /home/yirehban/ros2_ws/src/mission/src/navigate_to_gate.cpp
-CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o -MF CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o.d -o CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/navigate_to_gate.cpp
+CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o: /home/yirehban/ros2_ws/src/mission/src/nodes/move_to.cpp
+CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o -MF CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o.d -o CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/nodes/move_to.cpp
 
-CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/navigate_to_gate.cpp > CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.i
+CMakeFiles/bt_runner.dir/nodes/move_to.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/nodes/move_to.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/nodes/move_to.cpp > CMakeFiles/bt_runner.dir/nodes/move_to.cpp.i
 
-CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/navigate_to_gate.cpp -o CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.s
+CMakeFiles/bt_runner.dir/nodes/move_to.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/nodes/move_to.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/nodes/move_to.cpp -o CMakeFiles/bt_runner.dir/nodes/move_to.cpp.s
 
-CMakeFiles/bt_runner.dir/src/turn_180.cpp.o: CMakeFiles/bt_runner.dir/flags.make
-CMakeFiles/bt_runner.dir/src/turn_180.cpp.o: /home/yirehban/ros2_ws/src/mission/src/turn_180.cpp
-CMakeFiles/bt_runner.dir/src/turn_180.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bt_runner.dir/src/turn_180.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/src/turn_180.cpp.o -MF CMakeFiles/bt_runner.dir/src/turn_180.cpp.o.d -o CMakeFiles/bt_runner.dir/src/turn_180.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/turn_180.cpp
+CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o: /home/yirehban/ros2_ws/src/mission/src/nodes/detect_object.cpp
+CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o -MF CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o.d -o CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/nodes/detect_object.cpp
 
-CMakeFiles/bt_runner.dir/src/turn_180.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/src/turn_180.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/turn_180.cpp > CMakeFiles/bt_runner.dir/src/turn_180.cpp.i
+CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/nodes/detect_object.cpp > CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.i
 
-CMakeFiles/bt_runner.dir/src/turn_180.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/src/turn_180.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/turn_180.cpp -o CMakeFiles/bt_runner.dir/src/turn_180.cpp.s
-
-CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o: CMakeFiles/bt_runner.dir/flags.make
-CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o: /home/yirehban/ros2_ws/src/mission/src/pass_through_gate.cpp
-CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o -MF CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o.d -o CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/pass_through_gate.cpp
-
-CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/pass_through_gate.cpp > CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.i
-
-CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/pass_through_gate.cpp -o CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.s
-
-CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o: CMakeFiles/bt_runner.dir/flags.make
-CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o: /home/yirehban/ros2_ws/src/mission/src/search_pattern.cpp
-CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o -MF CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o.d -o CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o -c /home/yirehban/ros2_ws/src/mission/src/search_pattern.cpp
-
-CMakeFiles/bt_runner.dir/src/search_pattern.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/src/search_pattern.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirehban/ros2_ws/src/mission/src/search_pattern.cpp > CMakeFiles/bt_runner.dir/src/search_pattern.cpp.i
-
-CMakeFiles/bt_runner.dir/src/search_pattern.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/src/search_pattern.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/search_pattern.cpp -o CMakeFiles/bt_runner.dir/src/search_pattern.cpp.s
+CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirehban/ros2_ws/src/mission/src/nodes/detect_object.cpp -o CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.s
 
 # Object files for target bt_runner
 bt_runner_OBJECTS = \
-"CMakeFiles/bt_runner.dir/src/main.cpp.o" \
-"CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o" \
-"CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o" \
-"CMakeFiles/bt_runner.dir/src/turn_180.cpp.o" \
-"CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o" \
-"CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o"
+"CMakeFiles/bt_runner.dir/main.cpp.o" \
+"CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o" \
+"CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o" \
+"CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o"
 
 # External object files for target bt_runner
 bt_runner_EXTERNAL_OBJECTS =
 
-bt_runner: CMakeFiles/bt_runner.dir/src/main.cpp.o
-bt_runner: CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o
-bt_runner: CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o
-bt_runner: CMakeFiles/bt_runner.dir/src/turn_180.cpp.o
-bt_runner: CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o
-bt_runner: CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/main.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o
 bt_runner: CMakeFiles/bt_runner.dir/build.make
 bt_runner: /opt/ros/humble/lib/librclcpp.so
-bt_runner: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so
+bt_runner: /usr/local/lib/libbehaviortree_cpp.so
+bt_runner: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+bt_runner: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+bt_runner: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+bt_runner: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+bt_runner: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+bt_runner: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 bt_runner: /opt/ros/humble/lib/liblibstatistics_collector.so
 bt_runner: /opt/ros/humble/lib/librcl.so
 bt_runner: /opt/ros/humble/lib/librmw_implementation.so
+bt_runner: /opt/ros/humble/lib/libament_index_cpp.so
 bt_runner: /opt/ros/humble/lib/librcl_logging_spdlog.so
 bt_runner: /opt/ros/humble/lib/librcl_logging_interface.so
 bt_runner: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -198,37 +173,38 @@ bt_runner: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
 bt_runner: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
 bt_runner: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
 bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
+bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+bt_runner: /opt/ros/humble/lib/libtracetools.so
 bt_runner: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 bt_runner: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
 bt_runner: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 bt_runner: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-bt_runner: /opt/ros/humble/lib/librmw.so
 bt_runner: /opt/ros/humble/lib/libfastcdr.so.1.0.24
-bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+bt_runner: /opt/ros/humble/lib/librmw.so
 bt_runner: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 bt_runner: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 bt_runner: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 bt_runner: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 bt_runner: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 bt_runner: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+bt_runner: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+bt_runner: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 bt_runner: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 bt_runner: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-bt_runner: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 bt_runner: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 bt_runner: /opt/ros/humble/lib/librosidl_typesupport_c.so
 bt_runner: /opt/ros/humble/lib/librcpputils.so
 bt_runner: /opt/ros/humble/lib/librosidl_runtime_c.so
 bt_runner: /opt/ros/humble/lib/librcutils.so
 bt_runner: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-bt_runner: /opt/ros/humble/lib/libtracetools.so
-bt_runner: /opt/ros/humble/lib/libament_index_cpp.so
 bt_runner: CMakeFiles/bt_runner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bt_runner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yirehban/ros2_ws/build/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bt_runner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bt_runner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -240,6 +216,6 @@ CMakeFiles/bt_runner.dir/clean:
 .PHONY : CMakeFiles/bt_runner.dir/clean
 
 CMakeFiles/bt_runner.dir/depend:
-	cd /home/yirehban/ros2_ws/build/mission && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yirehban/ros2_ws/src/mission /home/yirehban/ros2_ws/src/mission /home/yirehban/ros2_ws/build/mission /home/yirehban/ros2_ws/build/mission /home/yirehban/ros2_ws/build/mission/CMakeFiles/bt_runner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yirehban/ros2_ws/build/mission && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yirehban/ros2_ws/src/mission/src /home/yirehban/ros2_ws/src/mission/src /home/yirehban/ros2_ws/build/mission /home/yirehban/ros2_ws/build/mission /home/yirehban/ros2_ws/build/mission/CMakeFiles/bt_runner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bt_runner.dir/depend
 

@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -272,13 +272,16 @@ SITE:STRING=ubuntu
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/usr/local/lib/libbehaviortree_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/humble/share/ament_cmake_core/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_cppcheck.
+ament_cmake_cppcheck_DIR:PATH=/opt/ros/humble/share/ament_cmake_cppcheck/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_definitions/cmake
@@ -301,6 +304,9 @@ ament_cmake_export_link_flags_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
 ament_cmake_export_targets_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_targets/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_flake8.
+ament_cmake_flake8_DIR:PATH=/opt/ros/humble/share/ament_cmake_flake8/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
 ament_cmake_gen_version_h_DIR:PATH=/opt/ros/humble/share/ament_cmake_gen_version_h/cmake
 
@@ -309,6 +315,12 @@ ament_cmake_include_directories_DIR:PATH=/opt/ros/humble/share/ament_cmake_inclu
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/humble/share/ament_cmake_libraries/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_lint_cmake.
+ament_cmake_lint_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake_lint_cmake/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_pep257.
+ament_cmake_pep257_DIR:PATH=/opt/ros/humble/share/ament_cmake_pep257/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
 ament_cmake_python_DIR:PATH=/opt/ros/humble/share/ament_cmake_python/cmake
@@ -319,14 +331,38 @@ ament_cmake_target_dependencies_DIR:PATH=/opt/ros/humble/share/ament_cmake_targe
 //The directory containing a CMake configuration file for ament_cmake_test.
 ament_cmake_test_DIR:PATH=/opt/ros/humble/share/ament_cmake_test/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_uncrustify.
+ament_cmake_uncrustify_DIR:PATH=/opt/ros/humble/share/ament_cmake_uncrustify/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_xmllint.
+ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/share/ament_cmake_xmllint/cmake
+
+//Path to a program.
+ament_cppcheck_BIN:FILEPATH=/opt/ros/humble/bin/ament_cppcheck
 
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
 
-//The directory containing a CMake configuration file for behaviortree_cpp_v3.
-behaviortree_cpp_v3_DIR:PATH=/opt/ros/humble/lib/cmake/behaviortree_cpp_v3
+//The directory containing a CMake configuration file for ament_lint_auto.
+ament_lint_auto_DIR:PATH=/opt/ros/humble/share/ament_lint_auto/cmake
+
+//Path to a program.
+ament_lint_cmake_BIN:FILEPATH=/opt/ros/humble/bin/ament_lint_cmake
+
+//The directory containing a CMake configuration file for ament_lint_common.
+ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
+
+//Path to a program.
+ament_uncrustify_BIN:FILEPATH=/opt/ros/humble/bin/ament_uncrustify
+
+//Path to a program.
+ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
+
+//The directory containing a CMake configuration file for behaviortree_cpp.
+behaviortree_cpp_DIR:PATH=/usr/local/share/behaviortree_cpp/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
@@ -359,7 +395,7 @@ mission_BINARY_DIR:STATIC=/home/yirehban/ros2_ws/build/mission
 mission_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-mission_SOURCE_DIR:STATIC=/home/yirehban/ros2_ws/src/mission
+mission_SOURCE_DIR:STATIC=/home/yirehban/ros2_ws/src/mission/src
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so
@@ -469,6 +505,9 @@ std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
 
+//Path to a program.
+xmllint_BIN:FILEPATH=/usr/bin/xmllint
+
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/humble/cmake
 
@@ -561,7 +600,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/yirehban/ros2_ws/src/mission
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/yirehban/ros2_ws/src/mission/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -681,6 +720,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-aarch64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

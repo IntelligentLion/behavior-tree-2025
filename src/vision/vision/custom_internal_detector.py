@@ -107,7 +107,7 @@ def __main(opt: argparse.Namespace):
         # Utilities for tracks view
         camera_config = zed.get_camera_information().camera_configuration
         tracks_resolution = sl.Resolution(400, display_resolution.height)
-        track_view_generator = cv_viewer.TrackingViewer(tracks_resolution, camera_config.fps, init_params.depth_maximum_distance*1000, 2)
+        track_view_generator = cv_viewer.TrackingViewer(tracks_resolution, camera_config.fps, init_params.depth_maximum_distance*1000) #, 2
         track_view_generator.set_camera_calibration(camera_config.calibration_parameters)
         image_track_ocv = np.zeros((tracks_resolution.height, tracks_resolution.width, 4), np.uint8)
 
@@ -143,7 +143,7 @@ def __main(opt: argparse.Namespace):
                 zed.retrieve_image(image_left, sl.VIEW.LEFT, sl.MEM.CPU, display_resolution)
                 image_render_left = image_left.get_data()
                 np.copyto(image_left_ocv,image_render_left)
-                track_view_generator.generate_view(objects, image_left_ocv,image_scale ,cam_w_pose, image_track_ocv, objects.is_tracked)
+                track_view_generator.generate_view(objects, cam_w_pose, image_track_ocv, objects.is_tracked)
                 global_image = cv2.hconcat([image_left_ocv,image_track_ocv])
                 viewer.updateData(point_cloud, objects)
 
@@ -178,7 +178,7 @@ def __printHelp():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--custom_onnx', type=str, required=True, help='/home/yirehban/Desktop/test1/model-1-yolov8n.pt')
+    parser.add_argument('--custom_onnx', type=str, required=True, help='/home/yirehban/Downloads/model-1-yolov8n.onnx')
     parser.add_argument('--svo', type=str, default=None, help='optional svo file, if not passed, use the plugged camera instead')
     parser.add_argument('--disable_gui', action = 'store_true', help='Flag to disable the GUI to increase detection performances. On low-end hardware such as Jetson Nano, the GUI significantly slows down the detection and increase the memory consumption')
     opt = parser.parse_args()

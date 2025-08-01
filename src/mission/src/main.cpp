@@ -1,5 +1,7 @@
 #include <iostream>
 #include <chrono>
+#include <string>
+#include "std_msgs/msg/string.hpp"
 #include <rclcpp/rclcpp.hpp>
 #include "behaviortree_cpp/action_node.h"
 #include "behaviortree_cpp/loggers/bt_cout_logger.h"
@@ -7,8 +9,31 @@
 #include "/home/yirehban/ros2_ws/src/mission/include/mission/move_to.hpp"
 #include "/home/yirehban/ros2_ws/src/mission/include/mission/detect_object.hpp"
 
+
 using namespace std;
 using namespace std::chrono_literals;
+
+class NodeConfig : public rclcpp::Node
+{
+public:
+    NodeConfig() : Node("mission_node")
+    {
+        sub_ = this->create_subscription<std_msgs::msg::String>("vision_subscriber", 10, 
+            std::bind(&NodeConfig::callback, this, std::placeholders::_1));  // recieves the message 
+    }
+
+    string detections;
+    void callback(const std_msgs::msg::String::SharedPtr sub_msg)
+    {
+        string detections = sub_msg->data;  // process the message as needed
+
+    }
+
+private:
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_;
+
+};
+
 
 // Submerge (Action Node)
 class Submerge : public BT::SyncActionNode 
@@ -508,10 +533,27 @@ public:
     }
 };
 
+
+  
 int main(int argc, char **argv)
 {
 
     rclcpp::init(argc, argv);
+    auto mission = std::make_shared<NodeConfig>();
+    rclcpp::spin(mission);
+
+    NodeConfig node;
+
+    while (rclcpp::ok()) 
+    {
+        cout << "Detected: " << node.detections << endl;
+    }
+    
+
+    rclcpp::shutdown();
+    return 0;
+
+    /* 
 
     BT::BehaviorTreeFactory factory; 
     
@@ -585,15 +627,9 @@ int main(int argc, char **argv)
 
     rclcpp::Rate rate(10);
     main_tree.tickWhileRunning(); 
-    /* 
-    while (rclcpp::ok())
-    {
-        main_tree.tickExactlyOnce();
-        rate.sleep();
-    }
-    */
     
     rclcpp::shutdown();
     return 0;
+    */
 }
 

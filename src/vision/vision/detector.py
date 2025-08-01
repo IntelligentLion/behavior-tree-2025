@@ -11,8 +11,26 @@ from ultralytics import YOLO
 from threading import Lock, Thread
 from time import sleep
 
-from .ogl_viewer import viewer as gl
-from .cv_viewer import tracking_viewer as cv_viewer
+import ogl_viewer.viewer as gl
+import cv_viewer.tracking_viewer as cv_viewer
+
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+class VisionNode(Node):
+    def __init__(self):
+        super().__init__('vision_node')
+        self.publisher_ = self.create_publisher(String, 'vision_subscriber', 10)
+
+    def publish_detection(self, detection_str):
+        msg = String()
+        msg.data = detection_str
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Published: {(msg.data)}')
+
+
+
 
 lock = Lock()
 run_signal = False
@@ -63,11 +81,12 @@ def torch_thread(weights, img_size, conf_thres=0.2, iou_thres=0.45):
         sleep(0.01)
 
 
-def main():
+def main(node):
+
     global image_net, exit_signal, run_signal, detections
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', type=str, default='/home/yirehban/Desktop/test1/model-1-yolov8n.pt', help='model.pt path(s)')
+    parser.add_argument('--weights', type=str, default='/home/yirehban/Downloads/updatedbest.pt', help='model.pt path(s)')
     parser.add_argument('--svo', type=str, default=None, help='optional svo file, if not passed, use the plugged camera instead')
     parser.add_argument('--img_size', type=int, default=416, help='inference size (pixels)')
     parser.add_argument('--conf_thres', type=float, default=0.4, help='object confidence threshold')
@@ -168,6 +187,9 @@ def main():
 
             track_view_generator.generate_view(objects, cam_w_pose, image_track_ocv, objects.is_tracked)
             cv2.imshow("ZED | 2D View and Birds View", global_image)
+
+            node.publish_detection(str(detections))
+            
             key = cv2.waitKey(1)
             if key in [27, ord('q'), ord('Q')]:
                 exit_signal = True
@@ -180,5 +202,8 @@ def main():
 
 
 if __name__ == '__main__':
+    rclpy.init(args=None)
+    vision_sub = VisionNode()
     with torch.no_grad():
-        main()
+        main(vision_sub)
+    rclpy.shutdown()

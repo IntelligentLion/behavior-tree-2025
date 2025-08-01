@@ -1,0 +1,39 @@
+[2.847s] Invoking command in '/home/yirehban/ros2_ws/build/vision': CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/auv_msgs:/home/yirehban/ros2_ws/install/mission:/home/yirehban/ros2_ws/install/zed_ros2:/home/yirehban/ros2_ws/install/zed_robot_integration:/home/yirehban/ros2_ws/install/zed_ipc:/home/yirehban/ros2_ws/install/zed_multi_camera:/home/yirehban/ros2_ws/install/zed_display_rviz2:/home/yirehban/ros2_ws/install/zed_depth_to_laserscan:/home/yirehban/ros2_ws/install/zed_wrapper:/home/yirehban/ros2_ws/install/zed_tutorial_video:/home/yirehban/ros2_ws/install/zed_tutorial_pos_tracking:/home/yirehban/ros2_ws/install/zed_tutorial_depth:/home/yirehban/ros2_ws/install/zed_topic_benchmark:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces:/home/yirehban/ros2_ws/install/zed_rgb_convert:/home/yirehban/ros2_ws/install/zed_aruco_localization:/home/yirehban/ros2_ws/install/zed_components:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set:/home/yirehban/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_service:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_client:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_async_client PYTHONPATH=/home/yirehban/ros2_ws/build/vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yirehban/ros2_ws/build/vision/build --no-deps
+[3.156s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[3.156s] !!
+[3.156s] 
+[3.156s]         ********************************************************************************
+[3.156s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.157s]         versions. Please use the underscore name 'script_dir' instead.
+[3.157s] 
+[3.157s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[3.157s]         or your builds will no longer be supported.
+[3.157s] 
+[3.157s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.157s]         ********************************************************************************
+[3.157s] 
+[3.157s] !!
+[3.157s]   opt = self._enforce_underscore(opt, section)
+[3.271s] /home/yirehban/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[3.271s] !!
+[3.271s] 
+[3.271s]         ********************************************************************************
+[3.271s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.272s]         versions. Please use the underscore name 'script_dir' instead.
+[3.272s]         (Affected: vision).
+[3.272s] 
+[3.272s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[3.272s]         or your builds will no longer be supported.
+[3.272s] 
+[3.272s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.272s]         ********************************************************************************
+[3.272s] 
+[3.273s] !!
+[3.273s]   opt = self._enforce_underscore(opt, section)
+[3.309s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+[3.310s]    or: setup.py --help [cmd1 cmd2 ...]
+[3.310s]    or: setup.py --help-commands
+[3.310s]    or: setup.py cmd --help
+[3.310s] 
+[3.310s] error: option --editable not recognized
+[3.368s] Invoked command in '/home/yirehban/ros2_ws/build/vision' returned '1': CMAKE_PREFIX_PATH=/home/yirehban/ros2_ws/install/auv_msgs:/home/yirehban/ros2_ws/install/mission:/home/yirehban/ros2_ws/install/zed_ros2:/home/yirehban/ros2_ws/install/zed_robot_integration:/home/yirehban/ros2_ws/install/zed_ipc:/home/yirehban/ros2_ws/install/zed_multi_camera:/home/yirehban/ros2_ws/install/zed_display_rviz2:/home/yirehban/ros2_ws/install/zed_depth_to_laserscan:/home/yirehban/ros2_ws/install/zed_wrapper:/home/yirehban/ros2_ws/install/zed_tutorial_video:/home/yirehban/ros2_ws/install/zed_tutorial_pos_tracking:/home/yirehban/ros2_ws/install/zed_tutorial_depth:/home/yirehban/ros2_ws/install/zed_topic_benchmark:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces:/home/yirehban/ros2_ws/install/zed_rgb_convert:/home/yirehban/ros2_ws/install/zed_aruco_localization:/home/yirehban/ros2_ws/install/zed_components:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set:/home/yirehban/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_service:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_client:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_async_client PYTHONPATH=/home/yirehban/ros2_ws/build/vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yirehban/ros2_ws/build/vision/build --no-deps

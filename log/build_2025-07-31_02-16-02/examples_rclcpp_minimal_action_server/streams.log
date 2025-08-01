@@ -1,0 +1,28 @@
+[0.102s] Invoking command in '/home/yirehban/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.604s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.751s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.219s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.280s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.287s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.299s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.449s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.493s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.503s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.822s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.924s] -- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.955s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.337s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.339s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.341s] -- Configured cppcheck include dirs: 
+[3.342s] -- Configured cppcheck exclude dirs and/or files: 
+[3.344s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.346s] -- Configured cpplint exclude dirs and/or files: 
+[3.348s] -- Added test 'lint_cmake' to check CMake code style
+[3.351s] -- Added test 'uncrustify' to check C / C++ code style
+[3.352s] -- Configured uncrustify additional arguments: 
+[3.355s] -- Added test 'xmllint' to check XML markup files
+[3.374s] -- Configuring done
+[3.473s] -- Generating done
+[3.494s] -- Build files have been written to: /home/yirehban/ros2_ws/build/examples_rclcpp_minimal_action_server

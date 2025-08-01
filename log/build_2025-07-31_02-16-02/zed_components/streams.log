@@ -1,0 +1,35 @@
+[0.114s] Invoking command in '/home/yirehban/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/zed_components
+[0.702s] -- Found CUDA: /usr/local/cuda-12.6 (found suitable version "12.6", minimum required is "12.6") 
+[0.827s] -- Found CUDA: /usr/local/cuda-12.6 (found version "12.6") 
+[0.829s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.265s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.662s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.668s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.683s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.985s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.990s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.075s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.083s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.212s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.628s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.634s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.647s] -- Configured cppcheck include dirs: /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include
+[4.657s] -- Configured cppcheck exclude dirs and/or files: 
+[4.659s] -- Added test 'lint_cmake' to check CMake code style
+[4.675s] -- Added test 'uncrustify' to check C / C++ code style
+[4.675s] -- Configured uncrustify additional arguments: 
+[4.677s] -- Added test 'xmllint' to check XML markup files
+[4.702s] -- Configuring done
+[4.895s] -- Generating done
+[4.959s] -- Build files have been written to: /home/yirehban/ros2_ws/build/zed_components
+[5.046s] Invoked command in '/home/yirehban/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/zed_components
+[5.047s] Invoking command in '/home/yirehban/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/zed_components -- -j6 -l6
+[5.314s] [35m[1mConsolidate compiler generated dependencies of target zed_camera_one_component[0m
+[5.483s] [35m[1mConsolidate compiler generated dependencies of target zed_camera_component[0m
+[6.354s] [  7%] [32m[1mLinking CXX shared library libzed_camera_one_component.so[0m
+[6.381s] [ 14%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[11.949s] [ 50%] Built target zed_camera_one_component
+[13.789s] [100%] Built target zed_camera_component

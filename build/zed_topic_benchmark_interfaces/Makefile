@@ -328,17 +328,17 @@ zed_topic_benchmark_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : zed_topic_benchmark_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_zed_topic_benchmark_interfaces
+# Target rules for targets named ament_cmake_python_symlink_zed_topic_benchmark_interfaces
 
 # Build rule for target.
-ament_cmake_python_copy_zed_topic_benchmark_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_zed_topic_benchmark_interfaces
-.PHONY : ament_cmake_python_copy_zed_topic_benchmark_interfaces
+ament_cmake_python_symlink_zed_topic_benchmark_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_zed_topic_benchmark_interfaces
+.PHONY : ament_cmake_python_symlink_zed_topic_benchmark_interfaces
 
 # fast build rule for target.
-ament_cmake_python_copy_zed_topic_benchmark_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_zed_topic_benchmark_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_zed_topic_benchmark_interfaces.dir/build
-.PHONY : ament_cmake_python_copy_zed_topic_benchmark_interfaces/fast
+ament_cmake_python_symlink_zed_topic_benchmark_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_zed_topic_benchmark_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_zed_topic_benchmark_interfaces.dir/build
+.PHONY : ament_cmake_python_symlink_zed_topic_benchmark_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_zed_topic_benchmark_interfaces_egg
@@ -697,7 +697,7 @@ help:
 	@echo "... test"
 	@echo "... all_zed_topic_benchmark_interfaces_files"
 	@echo "... ament_cmake_python_build_zed_topic_benchmark_interfaces_egg"
-	@echo "... ament_cmake_python_copy_zed_topic_benchmark_interfaces"
+	@echo "... ament_cmake_python_symlink_zed_topic_benchmark_interfaces"
 	@echo "... uninstall"
 	@echo "... zed_topic_benchmark_interfaces"
 	@echo "... zed_topic_benchmark_interfaces__cpp"

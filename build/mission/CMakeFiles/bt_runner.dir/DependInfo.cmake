@@ -8,12 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yirehban/ros2_ws/src/mission/src/gate_detected.cpp" "CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/src/gate_detected.cpp.o.d"
-  "/home/yirehban/ros2_ws/src/mission/src/main.cpp" "CMakeFiles/bt_runner.dir/src/main.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/src/main.cpp.o.d"
-  "/home/yirehban/ros2_ws/src/mission/src/navigate_to_gate.cpp" "CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/src/navigate_to_gate.cpp.o.d"
-  "/home/yirehban/ros2_ws/src/mission/src/pass_through_gate.cpp" "CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/src/pass_through_gate.cpp.o.d"
-  "/home/yirehban/ros2_ws/src/mission/src/search_pattern.cpp" "CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/src/search_pattern.cpp.o.d"
-  "/home/yirehban/ros2_ws/src/mission/src/turn_180.cpp" "CMakeFiles/bt_runner.dir/src/turn_180.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/src/turn_180.cpp.o.d"
+  "/home/yirehban/ros2_ws/src/mission/src/main.cpp" "CMakeFiles/bt_runner.dir/main.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/main.cpp.o.d"
+  "/home/yirehban/ros2_ws/src/mission/src/nodes/detect_object.cpp" "CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o.d"
+  "/home/yirehban/ros2_ws/src/mission/src/nodes/move_to.cpp" "CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o.d"
+  "/home/yirehban/ros2_ws/src/mission/src/nodes/rotate.cpp" "CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o" "gcc" "CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o.d"
   )
 
 # Targets to which this target links.

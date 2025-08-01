@@ -1,0 +1,73 @@
+[0.034s] Invoking command in '/home/yirehban/ros2_ws/build/mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/mission/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/mission
+[0.875s] -- The C compiler identification is GNU 11.4.0
+[1.435s] -- The CXX compiler identification is GNU 11.4.0
+[1.493s] -- Detecting C compiler ABI info
+[1.687s] -- Detecting C compiler ABI info - done
+[1.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.695s] -- Detecting C compile features
+[1.696s] -- Detecting C compile features - done
+[1.704s] -- Detecting CXX compiler ABI info
+[1.896s] -- Detecting CXX compiler ABI info - done
+[1.916s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.916s] -- Detecting CXX compile features
+[1.917s] -- Detecting CXX compile features - done
+[1.961s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.980s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.354s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[3.548s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.576s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.613s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.735s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.920s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.939s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.249s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.337s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.433s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.482s] -- Looking for pthread.h
+[4.658s] -- Looking for pthread.h - found
+[4.658s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.839s] -- Found Threads: TRUE  
+[5.072s] -- Found behaviortree_cpp: 4.7.2 (/usr/local/share/behaviortree_cpp/cmake)
+[5.097s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.466s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.467s] -- Configured cppcheck include dirs: /home/yirehban/ros2_ws/src/mission/src/include;/home/yirehban/ros2_ws/src/mission/src/$(rclcpp_INCLUDE_DIRS)
+[5.467s] -- Configured cppcheck exclude dirs and/or files: 
+[5.474s] -- Added test 'lint_cmake' to check CMake code style
+[5.486s] -- Added test 'uncrustify' to check C / C++ code style
+[5.486s] -- Configured uncrustify additional arguments: 
+[5.490s] -- Added test 'xmllint' to check XML markup files
+[5.501s] -- Configuring done
+[5.544s] -- Generating done
+[5.552s] -- Build files have been written to: /home/yirehban/ros2_ws/build/mission
+[5.579s] Invoked command in '/home/yirehban/ros2_ws/build/mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/yirehban/ros2_ws/src/mission/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yirehban/ros2_ws/install/mission
+[5.584s] Invoking command in '/home/yirehban/ros2_ws/build/mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/mission -- -j6 -l6
+[5.715s] [ 20%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/main.cpp.o[0m
+[5.716s] [ 40%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/nodes/rotate.cpp.o[0m
+[5.722s] [ 60%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/nodes/detect_object.cpp.o[0m
+[5.730s] [ 80%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/nodes/move_to.cpp.o[0m
+[34.107s] [100%] [32m[1mLinking CXX executable bt_runner[0m
+[35.757s] [100%] Built target bt_runner
+[35.802s] Invoked command in '/home/yirehban/ros2_ws/build/mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/yirehban/ros2_ws/build/mission -- -j6 -l6
+[35.840s] Invoking command in '/home/yirehban/ros2_ws/build/mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/mission
+[35.862s] -- Install configuration: ""
+[35.863s] -- Execute custom install script
+[35.867s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/lib/mission/bt_runner
+[35.910s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/ament_index/resource_index/package_run_dependencies/mission
+[35.930s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/ament_index/resource_index/parent_prefix_path/mission
+[35.955s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/environment/ament_prefix_path.sh
+[35.987s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/environment/ament_prefix_path.dsv
+[36.011s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/environment/path.sh
+[36.034s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/environment/path.dsv
+[36.055s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/local_setup.bash
+[36.099s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/local_setup.sh
+[36.121s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/local_setup.zsh
+[36.143s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/local_setup.dsv
+[36.169s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/package.dsv
+[36.201s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/ament_index/resource_index/packages/mission
+[36.225s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/cmake/missionConfig.cmake
+[36.249s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/cmake/missionConfig-version.cmake
+[36.274s] -- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/package.xml
+[36.297s] Invoked command in '/home/yirehban/ros2_ws/build/mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/yirehban/ros2_ws/build/mission
