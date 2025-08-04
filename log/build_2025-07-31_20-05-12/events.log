@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.000527] (-) JobUnselected: {'identifier': 'auv_msgs'}
+[0.001040] (-) JobUnselected: {'identifier': 'behaviortree_cpp'}
+[0.001085] (-) JobUnselected: {'identifier': 'control'}
+[0.001122] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001155] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001187] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001218] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001247] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001277] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001306] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001385] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001423] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001454] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001504] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001536] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001567] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001596] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001626] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001655] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001686] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001715] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001745] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001774] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001803] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001831] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001860] (-) JobUnselected: {'identifier': 'localization'}
+[0.001889] (-) JobUnselected: {'identifier': 'mavlink_thruster_control'}
+[0.001918] (-) JobUnselected: {'identifier': 'rviz_plugin_zed_od'}
+[0.001947] (-) JobUnselected: {'identifier': 'test'}
+[0.001976] (-) JobUnselected: {'identifier': 'vision'}
+[0.002005] (-) JobUnselected: {'identifier': 'zed_aruco_localization'}
+[0.002034] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.002063] (-) JobUnselected: {'identifier': 'zed_depth_to_laserscan'}
+[0.002091] (-) JobUnselected: {'identifier': 'zed_display_rviz2'}
+[0.002120] (-) JobUnselected: {'identifier': 'zed_ipc'}
+[0.002148] (-) JobUnselected: {'identifier': 'zed_multi_camera'}
+[0.002176] (-) JobUnselected: {'identifier': 'zed_rgb_convert'}
+[0.002204] (-) JobUnselected: {'identifier': 'zed_robot_integration'}
+[0.002232] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.002261] (-) JobUnselected: {'identifier': 'zed_topic_benchmark'}
+[0.002289] (-) JobUnselected: {'identifier': 'zed_topic_benchmark_component'}
+[0.002317] (-) JobUnselected: {'identifier': 'zed_topic_benchmark_interfaces'}
+[0.002345] (-) JobUnselected: {'identifier': 'zed_tutorial_depth'}
+[0.002373] (-) JobUnselected: {'identifier': 'zed_tutorial_pos_tracking'}
+[0.002402] (-) JobUnselected: {'identifier': 'zed_tutorial_video'}
+[0.002430] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.002464] (mission) JobQueued: {'identifier': 'mission', 'dependencies': OrderedDict()}
+[0.003543] (mission) JobStarted: {'identifier': 'mission'}
+[0.048882] (mission) JobProgress: {'identifier': 'mission', 'progress': 'cmake'}
+[0.052642] (mission) JobProgress: {'identifier': 'mission', 'progress': 'build'}
+[0.054666] (mission) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yirehban/ros2_ws/build/mission', '--', '-j6', '-l6'], 'cwd': '/home/yirehban/ros2_ws/build/mission', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yirehban'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yirehban/ros2_ws/install/zed_ipc/lib:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component/lib:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/yirehban/ros2_ws/install/zed_rgb_convert/lib:/home/yirehban/ros2_ws/install/zed_aruco_localization/lib:/home/yirehban/ros2_ws/install/zed_components/lib:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od/lib:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/yirehban'), ('OLDPWD', '/home/yirehban'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('SYSTEMD_EXEC_PID', '4415'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yirehban/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yirehban'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233813'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yirehban'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/yirehban/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2438,unix/ubuntu:/tmp/.ICE-unix/2438'), ('PIP_INDEX_URL', 'https://pypi.jetson-ai-lab.dev/jp6/cu126'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b27c6e24_2759_4255_9f96_f317f464c2b7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yirehban/ros2_ws/install/zed_ros2:/home/yirehban/ros2_ws/install/zed_robot_integration:/home/yirehban/ros2_ws/install/zed_ipc:/home/yirehban/ros2_ws/install/zed_multi_camera:/home/yirehban/ros2_ws/install/zed_display_rviz2:/home/yirehban/ros2_ws/install/zed_depth_to_laserscan:/home/yirehban/ros2_ws/install/zed_wrapper:/home/yirehban/ros2_ws/install/zed_tutorial_video:/home/yirehban/ros2_ws/install/zed_tutorial_pos_tracking:/home/yirehban/ros2_ws/install/zed_tutorial_depth:/home/yirehban/ros2_ws/install/zed_topic_benchmark:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces:/home/yirehban/ros2_ws/install/zed_rgb_convert:/home/yirehban/ros2_ws/install/zed_aruco_localization:/home/yirehban/ros2_ws/install/zed_components:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od:/home/yirehban/ros2_ws/install/mission:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set:/home/yirehban/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_service:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_client:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_async_client:/home/yirehban/ros2_ws/install/auv_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/yirehban/ros2_ws/build/mission'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/yirehban/ros2_ws/install/zed_ros2:/home/yirehban/ros2_ws/install/zed_robot_integration:/home/yirehban/ros2_ws/install/zed_ipc:/home/yirehban/ros2_ws/install/zed_multi_camera:/home/yirehban/ros2_ws/install/zed_display_rviz2:/home/yirehban/ros2_ws/install/zed_depth_to_laserscan:/home/yirehban/ros2_ws/install/zed_wrapper:/home/yirehban/ros2_ws/install/zed_tutorial_video:/home/yirehban/ros2_ws/install/zed_tutorial_pos_tracking:/home/yirehban/ros2_ws/install/zed_tutorial_depth:/home/yirehban/ros2_ws/install/zed_topic_benchmark:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces:/home/yirehban/ros2_ws/install/zed_rgb_convert:/home/yirehban/ros2_ws/install/zed_aruco_localization:/home/yirehban/ros2_ws/install/zed_components:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od:/home/yirehban/ros2_ws/install/mission:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set:/home/yirehban/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_service:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_client:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_async_client:/home/yirehban/ros2_ws/install/auv_msgs:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.098913] (-) TimerEvent: {}
+[0.199899] (-) TimerEvent: {}
+[0.300581] (-) TimerEvent: {}
+[0.334989] (mission) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bt_runner\x1b[0m\n'}
+[0.380394] (mission) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/bt_runner.dir/main.cpp.o\x1b[0m\n'}
+[0.400767] (-) TimerEvent: {}
+[0.501472] (-) TimerEvent: {}
+[0.602279] (-) TimerEvent: {}
+[0.703110] (-) TimerEvent: {}
+[0.804023] (-) TimerEvent: {}
+[0.904756] (-) TimerEvent: {}
+[1.005470] (-) TimerEvent: {}
+[1.106153] (-) TimerEvent: {}
+[1.206872] (-) TimerEvent: {}
+[1.307888] (-) TimerEvent: {}
+[1.409110] (-) TimerEvent: {}
+[1.510018] (-) TimerEvent: {}
+[1.610762] (-) TimerEvent: {}
+[1.711506] (-) TimerEvent: {}
+[1.812254] (-) TimerEvent: {}
+[1.913259] (-) TimerEvent: {}
+[2.014653] (-) TimerEvent: {}
+[2.115319] (-) TimerEvent: {}
+[2.216025] (-) TimerEvent: {}
+[2.316902] (-) TimerEvent: {}
+[2.417587] (-) TimerEvent: {}
+[2.518347] (-) TimerEvent: {}
+[2.619281] (-) TimerEvent: {}
+[2.720417] (-) TimerEvent: {}
+[2.821373] (-) TimerEvent: {}
+[2.922362] (-) TimerEvent: {}
+[3.023317] (-) TimerEvent: {}
+[3.124425] (-) TimerEvent: {}
+[3.225104] (-) TimerEvent: {}
+[3.325903] (-) TimerEvent: {}
+[3.426670] (-) TimerEvent: {}
+[3.527364] (-) TimerEvent: {}
+[3.628076] (-) TimerEvent: {}
+[3.728733] (-) TimerEvent: {}
+[3.829432] (-) TimerEvent: {}
+[3.930095] (-) TimerEvent: {}
+[4.030851] (-) TimerEvent: {}
+[4.131741] (-) TimerEvent: {}
+[4.232759] (-) TimerEvent: {}
+[4.333507] (-) TimerEvent: {}
+[4.434228] (-) TimerEvent: {}
+[4.535373] (-) TimerEvent: {}
+[4.636219] (-) TimerEvent: {}
+[4.737369] (-) TimerEvent: {}
+[4.838119] (-) TimerEvent: {}
+[4.940049] (-) TimerEvent: {}
+[5.040853] (-) TimerEvent: {}
+[5.141612] (-) TimerEvent: {}
+[5.242401] (-) TimerEvent: {}
+[5.343126] (-) TimerEvent: {}
+[5.443910] (-) TimerEvent: {}
+[5.544676] (-) TimerEvent: {}
+[5.645420] (-) TimerEvent: {}
+[5.746151] (-) TimerEvent: {}
+[5.846880] (-) TimerEvent: {}
+[5.947720] (-) TimerEvent: {}
+[6.048467] (-) TimerEvent: {}
+[6.149133] (-) TimerEvent: {}
+[6.250100] (-) TimerEvent: {}
+[6.351887] (-) TimerEvent: {}
+[6.452715] (-) TimerEvent: {}
+[6.553476] (-) TimerEvent: {}
+[6.654161] (-) TimerEvent: {}
+[6.755194] (-) TimerEvent: {}
+[6.856062] (-) TimerEvent: {}
+[6.957165] (-) TimerEvent: {}
+[7.057850] (-) TimerEvent: {}
+[7.158509] (-) TimerEvent: {}
+[7.259199] (-) TimerEvent: {}
+[7.359921] (-) TimerEvent: {}
+[7.460641] (-) TimerEvent: {}
+[7.561441] (-) TimerEvent: {}
+[7.662409] (-) TimerEvent: {}
+[7.763169] (-) TimerEvent: {}
+[7.864032] (-) TimerEvent: {}
+[7.964773] (-) TimerEvent: {}
+[8.065613] (-) TimerEvent: {}
+[8.166474] (-) TimerEvent: {}
+[8.267353] (-) TimerEvent: {}
+[8.368119] (-) TimerEvent: {}
+[8.468774] (-) TimerEvent: {}
+[8.569463] (-) TimerEvent: {}
+[8.670100] (-) TimerEvent: {}
+[8.770770] (-) TimerEvent: {}
+[8.871421] (-) TimerEvent: {}
+[8.972144] (-) TimerEvent: {}
+[9.072891] (-) TimerEvent: {}
+[9.173648] (-) TimerEvent: {}
+[9.280395] (-) TimerEvent: {}
+[9.381188] (-) TimerEvent: {}
+[9.482190] (-) TimerEvent: {}
+[9.583254] (-) TimerEvent: {}
+[9.684287] (-) TimerEvent: {}
+[9.784940] (-) TimerEvent: {}
+[9.885686] (-) TimerEvent: {}
+[9.986604] (-) TimerEvent: {}
+[10.087325] (-) TimerEvent: {}
+[10.188225] (-) TimerEvent: {}
+[10.289078] (-) TimerEvent: {}
+[10.389937] (-) TimerEvent: {}
+[10.490796] (-) TimerEvent: {}
+[10.591776] (-) TimerEvent: {}
+[10.692630] (-) TimerEvent: {}
+[10.793419] (-) TimerEvent: {}
+[10.894249] (-) TimerEvent: {}
+[10.995166] (-) TimerEvent: {}
+[11.095963] (-) TimerEvent: {}
+[11.196704] (-) TimerEvent: {}
+[11.297597] (-) TimerEvent: {}
+[11.398455] (-) TimerEvent: {}
+[11.499283] (-) TimerEvent: {}
+[11.600053] (-) TimerEvent: {}
+[11.700937] (-) TimerEvent: {}
+[11.801983] (-) TimerEvent: {}
+[11.902992] (-) TimerEvent: {}
+[12.003826] (-) TimerEvent: {}
+[12.104618] (-) TimerEvent: {}
+[12.205451] (-) TimerEvent: {}
+[12.306374] (-) TimerEvent: {}
+[12.407387] (-) TimerEvent: {}
+[12.508814] (-) TimerEvent: {}
+[12.610245] (-) TimerEvent: {}
+[12.711108] (-) TimerEvent: {}
+[12.811875] (-) TimerEvent: {}
+[12.912631] (-) TimerEvent: {}
+[13.013477] (-) TimerEvent: {}
+[13.114178] (-) TimerEvent: {}
+[13.215005] (-) TimerEvent: {}
+[13.315783] (-) TimerEvent: {}
+[13.416625] (-) TimerEvent: {}
+[13.517491] (-) TimerEvent: {}
+[13.618223] (-) TimerEvent: {}
+[13.718929] (-) TimerEvent: {}
+[13.819794] (-) TimerEvent: {}
+[13.921552] (-) TimerEvent: {}
+[14.022397] (-) TimerEvent: {}
+[14.123192] (-) TimerEvent: {}
+[14.223962] (-) TimerEvent: {}
+[14.324947] (-) TimerEvent: {}
+[14.426125] (-) TimerEvent: {}
+[14.527035] (-) TimerEvent: {}
+[14.627896] (-) TimerEvent: {}
+[14.728702] (-) TimerEvent: {}
+[14.829835] (-) TimerEvent: {}
+[14.931126] (-) TimerEvent: {}
+[15.031906] (-) TimerEvent: {}
+[15.132706] (-) TimerEvent: {}
+[15.233825] (-) TimerEvent: {}
+[15.334720] (-) TimerEvent: {}
+[15.435750] (-) TimerEvent: {}
+[15.536500] (-) TimerEvent: {}
+[15.637357] (-) TimerEvent: {}
+[15.738124] (-) TimerEvent: {}
+[15.839178] (-) TimerEvent: {}
+[15.939973] (-) TimerEvent: {}
+[16.040813] (-) TimerEvent: {}
+[16.141606] (-) TimerEvent: {}
+[16.242438] (-) TimerEvent: {}
+[16.343687] (-) TimerEvent: {}
+[16.444506] (-) TimerEvent: {}
+[16.545222] (-) TimerEvent: {}
+[16.646053] (-) TimerEvent: {}
+[16.746905] (-) TimerEvent: {}
+[16.848065] (-) TimerEvent: {}
+[16.948841] (-) TimerEvent: {}
+[17.049611] (-) TimerEvent: {}
+[17.150408] (-) TimerEvent: {}
+[17.251176] (-) TimerEvent: {}
+[17.351906] (-) TimerEvent: {}
+[17.452561] (-) TimerEvent: {}
+[17.553231] (-) TimerEvent: {}
+[17.654007] (-) TimerEvent: {}
+[17.755101] (-) TimerEvent: {}
+[17.855948] (-) TimerEvent: {}
+[17.956659] (-) TimerEvent: {}
+[18.057440] (-) TimerEvent: {}
+[18.158241] (-) TimerEvent: {}
+[18.258993] (-) TimerEvent: {}
+[18.359664] (-) TimerEvent: {}
+[18.460548] (-) TimerEvent: {}
+[18.561418] (-) TimerEvent: {}
+[18.662186] (-) TimerEvent: {}
+[18.763038] (-) TimerEvent: {}
+[18.863853] (-) TimerEvent: {}
+[18.964620] (-) TimerEvent: {}
+[19.065487] (-) TimerEvent: {}
+[19.166352] (-) TimerEvent: {}
+[19.267183] (-) TimerEvent: {}
+[19.368257] (-) TimerEvent: {}
+[19.468955] (-) TimerEvent: {}
+[19.569672] (-) TimerEvent: {}
+[19.670434] (-) TimerEvent: {}
+[19.771102] (-) TimerEvent: {}
+[19.871790] (-) TimerEvent: {}
+[19.972477] (-) TimerEvent: {}
+[20.073178] (-) TimerEvent: {}
+[20.173906] (-) TimerEvent: {}
+[20.274616] (-) TimerEvent: {}
+[20.375342] (-) TimerEvent: {}
+[20.476079] (-) TimerEvent: {}
+[20.576891] (-) TimerEvent: {}
+[20.677570] (-) TimerEvent: {}
+[20.778255] (-) TimerEvent: {}
+[20.878961] (-) TimerEvent: {}
+[20.979643] (-) TimerEvent: {}
+[21.080334] (-) TimerEvent: {}
+[21.181250] (-) TimerEvent: {}
+[21.282020] (-) TimerEvent: {}
+[21.382728] (-) TimerEvent: {}
+[21.483424] (-) TimerEvent: {}
+[21.584140] (-) TimerEvent: {}
+[21.684840] (-) TimerEvent: {}
+[21.785653] (-) TimerEvent: {}
+[21.886371] (-) TimerEvent: {}
+[21.987086] (-) TimerEvent: {}
+[22.087722] (-) TimerEvent: {}
+[22.188361] (-) TimerEvent: {}
+[22.289129] (-) TimerEvent: {}
+[22.389848] (-) TimerEvent: {}
+[22.490540] (-) TimerEvent: {}
+[22.591217] (-) TimerEvent: {}
+[22.691898] (-) TimerEvent: {}
+[22.792857] (-) TimerEvent: {}
+[22.893802] (-) TimerEvent: {}
+[22.994535] (-) TimerEvent: {}
+[23.095259] (-) TimerEvent: {}
+[23.196345] (-) TimerEvent: {}
+[23.297085] (-) TimerEvent: {}
+[23.397858] (-) TimerEvent: {}
+[23.498924] (-) TimerEvent: {}
+[23.599688] (-) TimerEvent: {}
+[23.651738] (mission) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable bt_runner\x1b[0m\n'}
+[23.699828] (-) TimerEvent: {}
+[23.800600] (-) TimerEvent: {}
+[23.901471] (-) TimerEvent: {}
+[24.002202] (-) TimerEvent: {}
+[24.102936] (-) TimerEvent: {}
+[24.203638] (-) TimerEvent: {}
+[24.304335] (-) TimerEvent: {}
+[24.405586] (-) TimerEvent: {}
+[24.506283] (-) TimerEvent: {}
+[24.607021] (-) TimerEvent: {}
+[24.707816] (-) TimerEvent: {}
+[24.808577] (-) TimerEvent: {}
+[24.909329] (-) TimerEvent: {}
+[25.010160] (-) TimerEvent: {}
+[25.064947] (mission) StdoutLine: {'line': b'[100%] Built target bt_runner\n'}
+[25.097184] (mission) CommandEnded: {'returncode': 0}
+[25.100524] (mission) JobProgress: {'identifier': 'mission', 'progress': 'install'}
+[25.110392] (-) TimerEvent: {}
+[25.133100] (mission) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yirehban/ros2_ws/build/mission'], 'cwd': '/home/yirehban/ros2_ws/build/mission', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yirehban'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yirehban/ros2_ws/install/zed_ipc/lib:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component/lib:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/yirehban/ros2_ws/install/zed_rgb_convert/lib:/home/yirehban/ros2_ws/install/zed_aruco_localization/lib:/home/yirehban/ros2_ws/install/zed_components/lib:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od/lib:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/yirehban'), ('OLDPWD', '/home/yirehban'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('SYSTEMD_EXEC_PID', '4415'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yirehban/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yirehban'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233813'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yirehban'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/yirehban/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2438,unix/ubuntu:/tmp/.ICE-unix/2438'), ('PIP_INDEX_URL', 'https://pypi.jetson-ai-lab.dev/jp6/cu126'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b27c6e24_2759_4255_9f96_f317f464c2b7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yirehban/ros2_ws/install/zed_ros2:/home/yirehban/ros2_ws/install/zed_robot_integration:/home/yirehban/ros2_ws/install/zed_ipc:/home/yirehban/ros2_ws/install/zed_multi_camera:/home/yirehban/ros2_ws/install/zed_display_rviz2:/home/yirehban/ros2_ws/install/zed_depth_to_laserscan:/home/yirehban/ros2_ws/install/zed_wrapper:/home/yirehban/ros2_ws/install/zed_tutorial_video:/home/yirehban/ros2_ws/install/zed_tutorial_pos_tracking:/home/yirehban/ros2_ws/install/zed_tutorial_depth:/home/yirehban/ros2_ws/install/zed_topic_benchmark:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces:/home/yirehban/ros2_ws/install/zed_rgb_convert:/home/yirehban/ros2_ws/install/zed_aruco_localization:/home/yirehban/ros2_ws/install/zed_components:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od:/home/yirehban/ros2_ws/install/mission:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set:/home/yirehban/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_service:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_client:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_async_client:/home/yirehban/ros2_ws/install/auv_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/yirehban/ros2_ws/build/mission'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/yirehban/ros2_ws/install/vision/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/mavlink_thruster_control/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/yirehban/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/yirehban/ros2_ws/install/zed_ros2:/home/yirehban/ros2_ws/install/zed_robot_integration:/home/yirehban/ros2_ws/install/zed_ipc:/home/yirehban/ros2_ws/install/zed_multi_camera:/home/yirehban/ros2_ws/install/zed_display_rviz2:/home/yirehban/ros2_ws/install/zed_depth_to_laserscan:/home/yirehban/ros2_ws/install/zed_wrapper:/home/yirehban/ros2_ws/install/zed_tutorial_video:/home/yirehban/ros2_ws/install/zed_tutorial_pos_tracking:/home/yirehban/ros2_ws/install/zed_tutorial_depth:/home/yirehban/ros2_ws/install/zed_topic_benchmark:/home/yirehban/ros2_ws/install/zed_topic_benchmark_component:/home/yirehban/ros2_ws/install/zed_topic_benchmark_interfaces:/home/yirehban/ros2_ws/install/zed_rgb_convert:/home/yirehban/ros2_ws/install/zed_aruco_localization:/home/yirehban/ros2_ws/install/zed_components:/home/yirehban/ros2_ws/install/rviz_plugin_zed_od:/home/yirehban/ros2_ws/install/mission:/home/yirehban/ros2_ws/install/examples_rclcpp_wait_set:/home/yirehban/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_service:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_client:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yirehban/ros2_ws/install/examples_rclcpp_async_client:/home/yirehban/ros2_ws/install/auv_msgs:/home/yirehban/ros2_ws/install/vision:/home/yirehban/ros2_ws/install/mavlink_thruster_control:/home/yirehban/ros2_ws/install/launch_testing_examples:/home/yirehban/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_service:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_client:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yirehban/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yirehban/ros2_ws/install/examples_rclpy_guard_conditions:/home/yirehban/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[25.153469] (mission) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.154772] (mission) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.156157] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/lib/mission/bt_runner\n'}
+[25.157191] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/ament_index/resource_index/package_run_dependencies/mission\n'}
+[25.158442] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/ament_index/resource_index/parent_prefix_path/mission\n'}
+[25.158680] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/environment/ament_prefix_path.sh\n'}
+[25.158860] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/environment/ament_prefix_path.dsv\n'}
+[25.159095] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/environment/path.sh\n'}
+[25.159275] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/environment/path.dsv\n'}
+[25.159492] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/local_setup.bash\n'}
+[25.159655] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/local_setup.sh\n'}
+[25.159841] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/local_setup.zsh\n'}
+[25.159984] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/local_setup.dsv\n'}
+[25.160109] (mission) StdoutLine: {'line': b'-- Symlinking: /home/yirehban/ros2_ws/install/mission/share/mission/package.dsv\n'}
+[25.186979] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/ament_index/resource_index/packages/mission\n'}
+[25.187464] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/cmake/missionConfig.cmake\n'}
+[25.187758] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/cmake/missionConfig-version.cmake\n'}
+[25.188018] (mission) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yirehban/ros2_ws/install/mission/share/mission/package.xml\n'}
+[25.191560] (mission) CommandEnded: {'returncode': 0}
+[25.210556] (-) TimerEvent: {}
+[25.266627] (mission) JobEnded: {'identifier': 'mission', 'rc': 0}
+[25.268397] (-) EventReactorShutdown: {}

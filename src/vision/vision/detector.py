@@ -188,7 +188,11 @@ def main(node):
             track_view_generator.generate_view(objects, cam_w_pose, image_track_ocv, objects.is_tracked)
             cv2.imshow("ZED | 2D View and Birds View", global_image)
 
-            node.publish_detection(str(detections))
+            if (detections is None or len(detections) == 0):
+                node.publish_detection("No detections")
+            else:
+                for obj in detections: 
+                    node.publish_detection(str(obj.label))
             
             key = cv2.waitKey(1)
             if key in [27, ord('q'), ord('Q')]:

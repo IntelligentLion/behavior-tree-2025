@@ -41,7 +41,7 @@
 
   <BehaviorTree ID="Heading Out">
     <Sequence>
-      <Submerge/>
+      <Submerge detections="{detections}"/>
       <RetryUntilSuccessful num_attempts="3">
         <Sequence>
           <Turn_right_90_deg/>
@@ -76,7 +76,7 @@
     <ForceSuccess>
       <Sequence>
         <Find_task_location/>
-        <Submerge/>
+        <Submerge detections="{detections}"/>
         <ForceSuccess>
           <Sequence>
             <RetryUntilSuccessful num_attempts="4">
@@ -94,7 +94,7 @@
             <Resurface/>
             <Move_and_place_trash_in_corresponding_basket/>
             <Move_back_facing_initial_direction/>
-            <Submerge/>
+            <Submerge detections="{detections}"/>
           </Sequence>
         </Repeat>
         <ForceSuccess>
@@ -103,7 +103,7 @@
             <Repeat num_cycles="2">
               <Turn_right_90_deg/>
             </Repeat>
-            <Submerge/>
+            <Submerge detections="{detections}"/>
           </Sequence>
         </ForceSuccess>
       </Sequence>
@@ -211,6 +211,7 @@
                    default="R"/>
     </Action>
     <Action ID="Submerge"
+            detections="{detections}"
             editable="true"/>
     <Action ID="Turn_right_180_deg"
             editable="true"/>

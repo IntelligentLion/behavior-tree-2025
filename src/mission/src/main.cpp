@@ -1,6 +1,7 @@
 #include <iostream>
 #include <chrono>
 #include <string>
+#include <thread>
 #include "std_msgs/msg/string.hpp"
 #include <rclcpp/rclcpp.hpp>
 #include "behaviortree_cpp/action_node.h"
@@ -13,25 +14,34 @@
 using namespace std;
 using namespace std::chrono_literals;
 
-class NodeConfig : public rclcpp::Node
+
+// This node gets the information from detector.py and transfers it over to the rest 
+// (acts as a vessel that extracts information, we need to pass it onto the next node as it keeps getting updated)
+
+// Variable definitions
+string detections;
+
+class DetectionNodeConfig : public rclcpp::Node
 {
 public:
-    NodeConfig() : Node("mission_node")
+    DetectionNodeConfig(BT::Blackboard::Ptr blackboard)
+    : Node("mission_node"), blackboard_(blackboard)
+
     {
         sub_ = this->create_subscription<std_msgs::msg::String>("vision_subscriber", 10, 
-            std::bind(&NodeConfig::callback, this, std::placeholders::_1));  // recieves the message 
+            std::bind(&DetectionNodeConfig::callback, this, std::placeholders::_1));  // recieves the message     
     }
 
-    string detections;
     void callback(const std_msgs::msg::String::SharedPtr sub_msg)
     {
-        string detections = sub_msg->data;  // process the message as needed
-
+        blackboard_ -> set("detections", sub_msg->data);  // Set the detections in the blackboard
+        cout << sub_msg->data << endl;  // Print the detections received from the detector.py
     }
+
 
 private:
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_;
-
+    BT::Blackboard::Ptr blackboard_;
 };
 
 
@@ -39,16 +49,35 @@ private:
 class Submerge : public BT::SyncActionNode 
 {
 public: 
-    explicit Submerge(const std::string &name) : BT::SyncActionNode(name, {})
+    explicit Submerge(const std::string &name, const BT::NodeConfig &config)
+     : BT::SyncActionNode(name, config)
     {
- 
     }
- 
-    BT::NodeStatus tick() override 
+
+    static BT::PortsList providedPorts()
     {
-        std::this_thread::sleep_for(3s);
-        cout << "Submerge" << endl; 
-        return BT::NodeStatus::SUCCESS; 
+        return { BT::InputPort<string>("detections") };
+    }
+
+    BT::NodeStatus tick() override {
+        auto res = getInput<std::string>("detections");
+        if (res = "0")
+        {
+            cout << "Sawfish detected" << endl; 
+            return BT::NodeStatus::SUCCESS;
+        }
+        if (res = "1")
+        {
+            cout << "Reefshark detected" << endl; 
+            return BT::NodeStatus::SUCCESS;
+        }
+        if (res = "No detections")
+        {
+            cout << "You're a bum" << endl; 
+            return BT::NodeStatus::FAILURE;
+        }
+        return BT::NodeStatus::SUCCESS;
+        
     }
 };
  
@@ -533,32 +562,19 @@ public:
     }
 };
 
-
-  
 int main(int argc, char **argv)
 {
-
+    // Initialize ROS 2
     rclcpp::init(argc, argv);
-    auto mission = std::make_shared<NodeConfig>();
-    rclcpp::spin(mission);
 
-    NodeConfig node;
-
-    while (rclcpp::ok()) 
-    {
-        cout << "Detected: " << node.detections << endl;
-    }
-    
-
-    rclcpp::shutdown();
-    return 0;
-
-    /* 
+    auto blackboard = BT::Blackboard::create(); 
+    blackboard->set("detections", "");
 
     BT::BehaviorTreeFactory factory; 
     
     // Heading Out Nodes
     factory.registerSimpleCondition("Detect_gate_at_front_of_sub", std::bind(Detect_gate_at_front_of_sub));
+    BT::PortsList detections = {BT::InputPort<string>("detections")};
     factory.registerNodeType<Submerge>("Submerge");
     factory.registerNodeType<Center_sub_perpendicular_to_gate>("Center_sub_perpendicular_to_gate");
     factory.registerNodeType<TurnRight90>("Turn_right_90_deg");
@@ -616,20 +632,22 @@ int main(int argc, char **argv)
     factory.registerBehaviorTreeFromFile("/home/yirehban/ros2_ws/src/mission/bt_xml/ocean_cleanup.xml"); // Ocean Cleanup (Subtree)
     factory.registerBehaviorTreeFromFile("/home/yirehban/ros2_ws/src/mission/bt_xml/return_home.xml"); // Return Home (Subtree)
 
-    // Create Tree 
-    auto main_tree = factory.createTree("SHRUB (Software for Handling and Regulating Underwater Behavior)");
-    
-    cout << "---Main Tree---" << endl; 
-    cout << endl; 
-    
+    // Spin ROS node in separate tree
+    auto mission = std::make_shared<DetectionNodeConfig>(blackboard);
+    std::thread ros_spin_thread([&]() { rclcpp::spin(mission); });
 
-    BT::StdCoutLogger logger(main_tree);
+    // Create the main tree
+    auto main_tree = factory.createTree("SHRUB (Software for Handling and Regulating Underwater Behavior)", blackboard);
 
-    rclcpp::Rate rate(10);
-    main_tree.tickWhileRunning(); 
-    
-    rclcpp::shutdown();
+    // Tick the tree in the main thread
+    main_tree.tickWhileRunning();
+    if (!rclcpp::ok())
+    { 
+        rclcpp::shutdown();
+    }
+    ros_spin_thread.join();
+
     return 0;
-    */
+    
 }
 
